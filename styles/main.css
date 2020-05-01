@@ -6,4 +6,5 @@
 /* base ten setting so that conversion later is easier */
 html {
   font-size: 10px;
+  scroll-behavior: smooth;
 }
