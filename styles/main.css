@@ -3,8 +3,189 @@
   box-sizing: border-box;
 }
 
-/* base ten setting so that conversion later is easier */
 html {
   font-size: 10px;
   scroll-behavior: smooth;
+
+  /* navigation bar */
+
+}
+
+body {
+  margin: 0;
+}
+
+h1, h2, h3 {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  color: #403F3F;
+  font-family: "Noto Serif", serif;
+  font-size: 2.5rem;
+  font-weight: 600;
+  padding-top: 3.5em;
+}
+
+h2 {
+  color: #403F3F;
+  font-family: "Noto Serif", serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  padding-top: 1.5em;
+}
+
+h3 {
+  font-family: "Noto Serif", serif;
+  font-size: 2.5rem;
+  font-weight: 400;
+  padding-top: 1.5em;
+}
+
+.buttonText {
+  color: white;
+  font-size: 1.5em;
+  text-decoration: none;
+}
+
+.expandedNav {
+  text-align: center;
+  padding-bottom: 2em;
+}
+
+.expandedNav--hidden {
+  display: none;
+}
+
+.expandedNavLink {
+  color: #403F3F;
+  font-size: 1.5em;
+  text-decoration: none;
+}
+
+.hamburgerButton {
+  height:5em;
+  float: right;
+  padding: 1.5em 1.5em;
+}
+
+.hero {
+  background-image: url("../images/heroimage.png");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.heroButtons {
+  display: flex;
+  justify-content: center;
+  padding-left: 0;
+  padding-top: 1.5em;
+}
+
+.heroButton {
+  background-color: #0A4F52;
+  border-radius: .5em;
+  display: inline-block;
+  margin: 0 3em 3em;
+  padding: .75em .75em;
+  text-align: center;
+}
+
+.heroSubtitle {
+  color: #403F3F;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 200;
+  padding-top: 1.5em;
+  text-align: center;
+}
+
+.projectKeywords {
+  display: none;
+}
+
+.projectGreen {
+  background-color: #91A3A3;
+}
+
+.projectSnapshot {
+  display: block;
+  margin-left: auto;
+  margin-right: 22%;
+  padding-top: 3em;
+  width: 56%;
+}
+
+.projectSubtitle {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 200;
+  line-height: 1.75em;
+  margin: 0 15%;
+  padding-top: 1.5em;
+  text-align: center;
+}
+
+.projectWhite {
+  background-color: #fff;
+}
+
+.redirectButton {
+  background-color: #0A4F52;
+  border-radius: .5em;
+  display: inline-block;
+  margin: 0 3em 3em;
+  padding: .75em .75em;
+  text-align: center;
+}
+
+.redirectButtons {
+  display: flex;
+  justify-content: center;
+  padding-left: 0;
+  padding-top: 1.5em;
+}
+
+.textGreen {
+  color: #91A3A3;
+}
+
+.textWhite {
+  color: white;
+}
+
+.topNav {
+  background-color: #F2F3F3;
+  position: fixed;
+  width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+  .expandedNav {
+    margin-left: auto;
+    margin-right: 0;
+    padding-bottom: 0;
+  }
+
+  .expandedNav--hidden {
+    display: flex;
+  }
+
+  .expandedNavLink {
+    margin-right: 48px;
+  }
+
+  .hamburgerButton {
+    display: none;
+  }
+
+  .projectKeywords {
+    display: flex;
+  }
+
+  .topNav {
+    display: flex;
+  }
 }
