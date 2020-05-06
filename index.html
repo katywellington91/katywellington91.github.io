@@ -9,6 +9,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap" rel="stylesheet"> <!--Noto serif regular -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&display=swap" rel="stylesheet"> <!--Noto serif Bold -->
 
     <!-- Font Awesome for social media icons -->
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
@@ -17,12 +19,14 @@
     <body>
       <div class="container">
         <nav class="topNav">
-          <img src="/images/logo.png" alt="Logo">
+          <a class="logoIndex" href="index.html">
+            <img class="logo" src="/images/logobig.png" alt="Logo">
+          </a>
 
           <img class="hamburgerButton" id="nav-hamburger" src="/images/bars-solid.svg" alt="Menu">
           <div class="expandedNav expandedNav--hidden" id="expanded-nav">
             <p><a class="expandedNavLink" href="about.html">About</a></p>
-            <p><a class="expandedNavLink" href="#clouded">Work</a></p>   <!-- I want this to direct the person to a lower section of the homepage -->
+            <p><a class="expandedNavLink" href="#clouded">Work</a></p>
             <p><a class="expandedNavLink" href="/images/wellington-resume.pdf">Resume</a></p>
             <p><a class="expandedNavLink" href="contact.html">Contact</a></p>
           </div>
@@ -34,7 +38,7 @@
     <section class="hero">
       <h1>Katy Wellington</h1>
       <h2>UX/UI Designer for Change</h2>
-      <span class="heroSubtitle">My mission as a designer is to create intuitive<br>solutions that empower people.</span>
+      <span class="heroSubtitle">My mission as a designer is to create <br> intuitive solutions that empower people.</span>
       <ul class="heroButtons">
         <li class="heroButton">
           <a class="buttonText" href="#clouded">My Work</a>
@@ -50,10 +54,10 @@
       <img class="projectSnapshot" src="/images/cloudEdimg.png" alt="CloudEd Image on Laptop">
       <div>
         <h3 class="textWhite">CloudEd</h3>
-        <ul class="projectKeywords">
-          <li>User Research</li>
-          <li>Visual Design</li>
-          <li>Brand Identity</li>
+        <ul class="projectKeywords backgroundWhite">
+          <li class="projectKeyword">User Research</li>
+          <li class="projectKeyword">Visual Design</li>
+          <li class="projectKeyword">Brand Identity</li>
         </ul>
         <p class="projectSubtitle textWhite">A cloud storage and organization platform that empowers educators.</p>
         <ul class="redirectButtons">
@@ -64,15 +68,15 @@
       </div>
     </section>
 
-    <!--First Case Study -->
+    <!--Second Case Study -->
     <section class="projectWhite">
       <img class="projectSnapshot" src="/images/busyBus.png" alt="Busybus image on phone">
       <div>
         <h3 class="textGreen">BusyBus</h3>
-        <ul class="projectKeywords">
-          <li>User Research</li>
-          <li>Visual Design</li>
-          <li>Development</li>
+        <ul class="projectKeywords backgroundGreen">
+          <li class="projectKeyword">User Research</li>
+          <li class="projectKeyword">Visual Design</li>
+          <li class="projectKeyword">Development</li>
         </ul>
         <p class="projectSubtitle textGreen">A public transit application that makes it easier for users to get
           to their destination.</p>
@@ -85,103 +89,111 @@
      </section>
 
     <!-- About Me section -->
-    <!-- <section id="aboutme">
-      <h3>About Me</h3>
-      <p>I’m a Denver based UX/UI designer who combines a love for connecting with
+    <section class="aboutme">
+      <img class="aboutmePic" src="/images/aboutme.png" alt="About Me picture">
+      <div>
+        <h3 class="textGray">About Me</h3>
+        <p class="projectSubtitle textGray">I’m a Denver based UX/UI designer who combines a love for connecting with
         people, strengths as an educator, and passion for the important issues facing
         our world to create user-based innovative creations.
         I received my Masters of the Arts in science curriculum and instruction design
         and spent five years working as a science teacher.
         I found myself wanting to follow new inspiration and enrolled myself in
         the Bloc Design program where I spent 8 months learn design UX/ UI best
-        practices, visual design, and fronte-end skills from professionals in the field.</p> -->
-
-      <!-- <p>When I am not designing, you can find me rock climbing in Colorado’s beautiful canyons.</p>
-      <img src="/images/aboutme.png" alt="About Me picture">
-      <a class="redirectButton" href="about.html">Read Full Bio</a>
-    </section> -->
+        practices, visual design, and fronte-end skills from professionals in the field.
+        When I am not designing, you can find me rock climbing in Colorado’s beautiful canyons.</p>
+        <ul class="redirectButtons">
+          <li class="redirectButton">
+            <a class="buttonText" href="about.html">Read Full Bio</a>
+          </li>
+        </ul>
+      </div>
+    </section>
 
     <!-- My Process Section -->
-    <!-- <section id="myProcess">
-      <h3>My Process</h3>
-      <h5>“Iteration is the key to innovation.”</h5>
-      <ul>
-        <li>
-          <h4>Research</h4>
-          <p>Defining the problem, collecting and analyzing user research,
-            and analyzing the competitive marketplace.</p>
-        </li>
-        <li>
-          <h4>Information Architecture</h4>
-          <p>Identifying user stories and flows, creating wireframes, and
-            conducting usability tests.</p>
-        </li>
-        <li>
-          <h4>Visual Design</h4>
-          <p>Creating sketches, identifying the brand identity, conducting
+    <section class="myProcess">
+      <div>
+        <h3 class="textGray">My Process</h3>
+        <h4 class="processTopic">Research</h4>
+        <p class="projectSubtitle textGray">Defining the problem, collecting and analyzing user research,
+          and analyzing the competitive marketplace.</p>
+        <h4 class="processTopic">Information Architecture</h4>
+        <p class="projectSubtitle textGray">Identifying user stories and flows, creating wireframes, and
+           conducting usability tests.</p>
+        <h4 class="processTopic">Visual Design</h4>
+        <p class="projectSubtitle textGray">Creating sketches, identifying the brand identity, conducting
             preference tests, crafting the style guide and high fidelity mock-ups.</p>
-        </li>
-        <li>
-          <h4>Develop</h4>
-          <p>Developing functional, high fidelity mock-ups using the HTML5, CSS3,
+        <h4 class="processTopic">Develop</h4>
+        <p class="projectSubtitle textGray">Developing functional, high fidelity mock-ups using the HTML5, CSS3,
             and JavaScript needed for the solution and deploying these within a
             testing environment. </p>
-        </li>
-      </ul>
-      <img src="/images/myprocess.png" alt="My Process Image">
-    </section> -->
+      </div>
+      <img class="processPic" src="/images/myprocess.png" alt="My Process Image">
+
+    </section>
 
     <!-- Testimonials section -->
-    <!-- <section id="testimonials">
-      <h3>Testimonials</h3>
-      <img src="/images/mikepicture.jpeg" alt="Mike Dekker">
-      <p>"As Katy's UX design mentor I have seen her grow to become a confident
+    <section class="testimonials">
+      <div>
+        <h3 class="textGray">Testimonials</h3>
+        <img class="testimonialPic" src="/images/mikepicture.png" alt="Mike Dekker">
+        <p class="projectSubtitle textGray">"As Katy's UX design mentor I have seen her grow to become a confident
         capable designer. She is a process-driven designer that is capable of
         aligning business requirements with user needs to create meaningful and
         memorable experiences. I would highly recommend her to anyone that is looking
         for a fast learning, motivated young UX designer. "
-      <p>- Mike Dekker | Independent UX Designer & Consultant</p>
+        <p class="projectSubtitle textGray">- Mike Dekker | Independent UX Designer & Consultant</p>
 
-      <div class="verticalLine"></div>
 
-      <img src="/images/katepicture.png" alt="Kate Redmond">
-      <p>“Always the professional, Katy is a true collaborative design partner
+        <img class="testimonialPic" src="/images/katepicture.png" alt="Kate Redmond">
+        <p class="projectSubtitle textGray">“Always the professional, Katy is a true collaborative design partner
         with a strong work ethic to produce rigorous and accessible standard
         aligned lessons for all students. Katy puts students first and her
         instruction delivery exudes excellence.”</p>
-      <p>- Kate Redmond | Senior Team Lead DPS</p>
-  </section> -->
+        <p class="projectSubtitle textGray">- Kate Redmond | Senior Team Lead Denver Public Schools</p>
+      </div>
+    </section>
 
   <!-- Connect section -->
-  <!-- <section id="connect">
-    <h3>Let's Connect!</h3>
-    <p>Like my work or just want to grab a cup of coffee and chat about UX?
-      Please reach out!</p>
-    <a class="redirectButton" href="mailto:katywellington91@gmail.com">Message Me</a>
-    <a class="redirectButton" href="/images/wellington-resume.pdf/" target="_blank">Resume</a>
-  </section> -->
+    <section class="connect">
+      <div>
+        <h3 class="textGray">Let's Connect!</h3>
+        <p class="projectSubtitle textGray">Like my work or just want to grab a cup of coffee and chat about UX?
+        <br>Please reach out!</p>
+        <ul class="redirectButtons">
+          <li class="redirectButton connectButton">
+            <a class="buttonText" href="mailto:katywellington91@gmail.com">Message Me</a>
+          </li>
+          <li class="redirectButton connectButton">
+            <a class="buttonText" href="/images/wellington-resume.pdf/" target="_blank">Resume</a>
+          </li>
+        </ul>
+      </div>
+    </section>
 
   <!--footer-->
-  <!-- <footer>
-    <p>© 2020  |  Designed and developed by Katy Wellington <p>
-    <ul class="mdl-mini-footer__link-list">
-     <li>
-      <a href="https://www.linkedin.com/in/kwelli">
-        <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-      </a>
-     </li>
-     <li>
-      <a href ="https://github.com/katywellington91">
-        <i class="fa fa-github-square" aria-hidden="true"></i>
-      </a>
-    </li>
-    <li>
-      <a href="mailto:katywellington91@gmail.com">
-        <i class="fa fa-envelope-square" aria-hidden="true"></i>
-      </a>
-    </li>
-  </ul>
-</footer> -->
+    <footer>
+      <div class= "footerDiv">
+        <p class="footerSubtitle textGray">© 2020  |  Katy Wellington <p>
+          <ul class=mediaList>
+            <li>
+              <a href="https://www.linkedin.com/in/kwelli">
+                  <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
+              </a>
+            </li>
+            <li>
+              <a href ="https://github.com/katywellington91">
+                  <i class="fa fa-github-square fa-2x" aria-hidden="true"></i>
+              </a>
+            </li>
+            <li>
+              <a href="mailto:katywellington91@gmail.com">
+                  <i class="fa fa-envelope-square fa-2x" aria-hidden="true"></i>
+              </a>
+            </li>
+          </ul>
+      </div>
+    </footer>
 
   <script>
     let expandedNav = document.getElementById('expanded-nav');
