@@ -4,11 +4,15 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio | Katy Wellington</title>
+
     <link rel="stylesheet" href="styles/reset.css">
-    <link rel="stylesheet" href="styles/caseStudy2.css">
+    <link rel="stylesheet" href="styles/busyBusProject.css">
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap" rel="stylesheet"> <!--Noto serif regular -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&display=swap" rel="stylesheet"> <!--Noto serif Bold -->
 
     <!-- Font Awesome for social media icons -->
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
@@ -18,10 +22,17 @@
   <body>
     <div class="container">
       <nav class="topNav">
-        <img src="/images/logo.png" alt="Logo">
-        <a href="about.html/">About</a>
-        <a href="#clouded">Work</a>   <!-- I want this to direct the person to a lower section of the homepage -->
-        <a href="/images/wellington-resume.pdf" target="_blank">Resume</a>
+        <a class="logoIndex" href="index.html">
+          <img class="logo" src="/images/logobig.png" alt="Logo">
+        </a>
+
+        <img class="hamburgerButton" id="nav-hamburger" src="/images/bars-solid.svg" alt="Menu">
+        <div class="expandedNav expandedNav--hidden" id="expanded-nav">
+          <p><a class="expandedNavLink" href="about.html">About</a></p>
+          <p><a class="expandedNavLink" href=".projectGreen">Work</a></p>
+          <p><a class="expandedNavLink" href="/images/wellington-resume.pdf">Resume</a></p>
+          <p><a class="expandedNavLink" href="contact.html">Contact</a></p>
+        </div>
       </nav>
     </div>
 
@@ -36,160 +47,171 @@
     </div>
 
     <!-- main picture and description section -->
-    <section id="titleDesciption">
+    <section class="titleDesciption">
       <h1>BusyBus</h1>
-      <img src="/images/buslogo.png" alt="BusyBus logo">
-      <h2>"Travelers can now relax and confidently enjoy their trip.""</h2>
-      <h3>A public transit application that creates a smoother, more positive, and more efficient journey.</h3>
-      <a class="topButton" href="katywellington91bb.github.io" target="_blank">View Prototype</a> <!-- link might be broken -->
-      <img src="/images/busMain.png" alt="BusyBus Main Image">
+      <img class="busyLogo" src="/images/buslogo.png" alt="BusyBus logo">
+      <span class="projectSlogan">"Travelers can now relax and confidently enjoy their trip.""</span>
+      <span class="projectMoto">A public transit application that creates a smoother, more positive, and more efficient journey.</span>
+      <ul class="redirectButtons">
+        <li class="redirectButton">
+          <a class="buttonText" href="katywellington91bb.github.io" target="_blank">View Prototype</a> <!-- link might be broken -->
+        </li>
+      </ul>
+      <img class="busonphone" src="/images/busMain.png" alt="BusyBus App on iphone">
     </section>
 
     <!-- Overview section-->
-    <section id="overview">
-      <h2>Overview</h2>
-        <p>The scenario for this application is a large city transit system that
+    <section class="overview">
+      <h2>Overview & Design Problem</h2>
+        <p class="projectSubtitle">The scenario for this application is a large city transit system that
            recently underwent an expansion. This expansion has led to the addition
            of many new bus routes. While expansions can definitely lead to
            benefits, they can also lead to added complexity for the users. In
            this case, users were specifically complaining about stops that serve
            multiple bus lines.</p>
-        <p>Picture this for a second: You are a user of this public transit
+        <p class="projectSubtitle">Picture this for a second: You are a user of this public transit
           system. You are walking towards your regular bus stop from which you
           commute to work. You are about a block away when you see a bus pull up.
           You hold your bag tight and run to the bus stop only to find out that… it is not your bus.
           This situation can be easily avoided with a mobile app that reliably and
           accurately gives the users information about the bus stops in this
           city transit system.</p>
-        <p class="projectQuestions">Questions addressed by the app:</p>
-        <p>Which bus line is arriving next?</p>
-        <p>When will it arrive?</p>
-        <p>How long does the user have to get to that stop?</p>
-
-        <section class="roles">
-          <img src="/images/lightbulb.png" alt="roles">
-          <h3>Roles</h3>
-            <ul>
-              <li>User Research</li>
-              <li>UX Design</li>
-              <li>Visual Design</li>
-              <li>Prototyping & Testing</li>
-            </ul>
-        </section>
-
-        <div class="verticalLine"></div> <!-- will become a vertical line-->
-
-        <section class="deliverables">
-          <img src="/images/pencil.png" alt="deliverables">
-          <h3>Deliverables</h3>
-            <ul>
-              <li>User Surveys</li>
-              <li>Personas</li>
-              <li>Competitive Analysis</li>
-              <li>User Stories</li>
-              <li>Paper Prototype</li>
-              <li>Visual Design</li>
-              <li>Prototyping</li>
-              <li>Development</li>
-            </ul>
-        </section>
-
-        <div class="verticalLine"></div> <!-- will become a vertical line-->
-
-        <section class="tools">
-          <img src="/images/wand.png" alt="tools">
-          <h3>Tools</h3>
-            <ul>
-              <li>Google Suite</li>
-              <li>Figma</li>
-              <li>Sketch</li>
-              <li>Adobe XD</li>
-              <li>HTML5/CSS3</li>
-            </ul>
-        </section>
+        <p class="projectSubtitle">Questions addressed by the app:</p>
+        <p class="projectSubtitle">Which bus line is arriving next?</p>
+        <p class="projectSubtitle">When will it arrive?</p>
+        <p class="projectSubtitle">How long does the user have to get to that stop?</p>
     </section>
 
-    <section id="solution">
+    <section class="roles">
+      <img class="lightbulb" src="/images/lightbulb.png" alt="roles">
+        <p class="listHeader">Roles</p>
+          <ul>
+            <li class="listItem">User Research</li>
+            <li class="listItem">UX Design</li>
+            <li class="listItem">Visual Design</li>
+            <li class="listItem">Prototyping & Testing</li>
+          </ul>
+    </section>
+
+    <hr class="break">
+
+    <section class="roles">
+      <img class="lightbulb" src="/images/pencil.png" alt="deliverables">
+        <p class="listHeader">Deliverables</p>
+          <ul>
+            <li class="listItem">User Surveys</li>
+            <li class="listItem">Personas</li>
+            <li class="listItem">Competitive Analysis</li>
+            <li class="listItem">User Stories</li>
+            <li class="listItem">Paper Prototype</li>
+            <li class="listItem">Visual Design</li>
+            <li class="listItem">Prototyping</li>
+            <li class="listItem">Development</li>
+          </ul>
+    </section>
+
+      <hr class="break">
+
+    <section class="roles">
+      <img class="lightbulb" src="/images/wand.png" alt="tools">
+      <p class="listHeader">Tools</p>
+          <ul>
+            <li class="listItem">Google Suite</li>
+            <li class="listItem">Figma</li>
+            <li class="listItem">Sketch</li>
+            <li class="listItem">Adobe XD</li>
+            <li class="listItem">HTML5/CSS3</li>
+          </ul>
+    </section>
+
+
+    <section class="solution">
       <h2>Solution</h2>
-      <p>Public transit application are an integral part of the public transit
+      <p class="projectSubtitle">Public transit application are an integral part of the public transit
         system today. BusyBus allows users to more efficiently plan, not only
         their transit journeys, but their whole days by removing the ambiguity
         and confusion of when buses will arrive and at which bus stop locations.
         Users can look at specific stops and find out how long it will take them
         to get to that stop and which buses will be arriving there at specific times.</p>
-      <img src="/images/bbmockup.png" alt="3d Mock-Up">
+      <img class="solutionImg" src="/images/bbmockup.png" alt="3d Mock-Up">
     </section>
 
     <section class="phaseLabel">
-      <h1>Discovery Phase</h1>
+      <span class="phaseLabelText">Discovery Phase</span>
     </section>
 
     <!-- user research-->
-    <section id="userResearch">
-      <h2>User Research</h2>
-      <h3 class="subtitle"> | Getting to Know the Users</h3>
-      <p>I started by conducting both user surveys and user interviews. My user
+    <section class="userResearch">
+      <h5>User Research | Getting to Know the Users</h5>
+      <p class="sectionSubtitle">I started by conducting both user surveys and user interviews. My user
         survey was completed by over 30 participants from all over the world.
         The survey asked them questions about their public transportation usage,
         their current and preferred ways to navigate their public transit systems,
         the applications they use (if any), and their preferences and usage of
         these apps as well as their pain points.I also chose 2 participants
         from the survey to interview. </p>
-      <p>From the survey and interviews, I discovered that 70% of users feel
+      <p class="sectionSubtitle">From the survey and interviews, I discovered that 70% of users feel
         that the most important feature on a public transit app is access to s
         chedule and times, 67% of users feel that there are aspects of inaccuracy
         in the current apps they use,  and 65% of users feel that their apps are
         in some way not user friendly.</p>
-      <p>My most surprising discovery was that many people, though they may want
+      <p class="sectionSubtitle">My most surprising discovery was that many people, though they may want
         to try a locally or regionally specific application, many switch to Google
         apps because other apps externalize information in the sense that different
         features have to be viewed in a different window, on a different website,
         or even in a completely different application.</p>
-      <img src="/images/bbuserSurvey.png" alt="User Survey Results">
-      <a class="redirectButton" href="https://forms.gle/12qN5ySUyQDttqZz9" target="_blank">User Survey</a>
+      <img class="surveyImg" src="/images/bbuserSurvey.png" alt="User Survey Results">
+      <ul class="redirectButtons">
+        <li class="redirectButton">
+          <a class="buttonText" href="https://forms.gle/12qN5ySUyQDttqZz9" target="_blank">User Survey</a>
+        </li>
+      <ul>
     </section>
 
     <!-- competitive analysis-->
-    <section id="competitiveAnalysis">
-      <h2>Competitive Analysis</h2>
-      <h3 class="subtitle"> | Scoping out the Market</h3>
-      <p>In order to understand the strengths and weaknesses of other public
+    <section class="competitiveAnalysis">
+      <h5>Competitive Analysis | Market Scope</h5>
+      <p class="sectionSubtitle">In order to understand the strengths and weaknesses of other public
         transit apps as well as find the market opportunity for my BusyBus app,
         I completed a SWOT competitive analysis of Google Maps and RTD Denver.
         From the SWOT analysis, I found...</p>
-      <p>The RTD app provides system maps and station information specific to
+      <p class="sectionSubtitle">The RTD app provides system maps and station information specific to
         Denver that Google Maps does not provide. However, this app’s weaknesses
         include an interface that is busy and confusing to navigate. RTD Denver
         also often provides inaccurate schedule and time information.</p>
-      <p>Google Maps is globally known as a reliable navigation app for multiple
+      <p class="sectionSubtitle">Google Maps is globally known as a reliable navigation app for multiple
         modes of transportation including cars, buses, bikes, walking etc.  Google
         maps is also known for its accuracy and reliability in terms of journey
         times and distances. However, the weakness of Google Maps in this situation
         is that it does not provide bus stop specific information which is what
         was specifically asked for by users in this case study design brief.</p>
-      <p>I discovered that the opportunity for my BusyBus app would be a locally
+      <p class="sectionSubtitle">I discovered that the opportunity for my BusyBus app would be a locally
         specific, reliable and accurate transit app where users can find everything
         they need in one app. The BusyBus user interface would also need to be
         easy to be intuitive and easy to use in order to stay competitive in the
         category of transit applications.</p>
-      <img src="/images/compAnalysisBB.png" alt="Competitive Analysis Busy Bus">
-      <a class="redirectButton" href="https://docs.google.com/document/d/1aTi1Z9UNO_55SZuAN7m2IDk6QNql259FqSTa0OnIRCo/edit?usp=sharing" target="_blank">User Survey</a>
+      <img class="surveyImg" src="/images/compAnalysisBB.png" alt="Competitive Analysis Busy Bus">
+      <ul class="redirectButtons">
+        <li class="redirectButton">
+          <a class="buttonText" href="https://docs.google.com/document/d/1aTi1Z9UNO_55SZuAN7m2IDk6QNql259FqSTa0OnIRCo/edit?usp=sharing" target="_blank">User Survey</a>
+        </li>
+      </ul>
+
     </section>
 
     <!-- user personas -->
-    <section id="userPersonas">
-      <h2>User Personas</h2>
-      <h3 class="subtitle"> | Held Acccountable by Users</h3>
-      <p>My research uncovered very helpful information about the current market
+    <section class="userPersonas">
+      <h5>User Personas | Held Accountable by Users</h5>
+      <p class="sectionSubtitle">My research uncovered very helpful information about the current market
         and potential users. I used this information to create personas that
         would portray the different types of users that emerged from my research.</p>
 
 
-      <img src="/images/colin.png" alt="Colin Brown">
-      <h2>Colin Brown</h2>
-      <h3>Accountant | 34 | Philadelphia, PA</h3>
+      <img class="personaImg" src="/images/colin.png" alt="Colin Brown">
+      <span class="personaName">Colin Brown</span>
+      <span class="personaDetails">Accountant | 34 | Philadelphia, PA</span>
       <p class="motivations">Motivations:</p>
-      <p>Colin is an account that lives in the suburbs just outside of Philadelphia.
+      <p class="motivationsText">Colin is an account that lives in the suburbs just outside of Philadelphia.
         Originally from the city, he still has many friends that live there. He
         recently moved to the subrurbs with his husband and kids because of the
         better school in a different district. He uses public transit to go to
@@ -199,19 +221,19 @@
         for business trips. Colin needs a transit app for the expanding public
         transit system to help him understand and use it. </p>
       <p class="frustrations">Frustrations:</p>
-      <p>Colin’s frustrations include applications that report innaccurate times
+      <p class="frustrationsText">Colin’s frustrations include applications that report innaccurate times
         and schedules especially when he is navigating to the airport to catch a flight. </p>
-      <p class="personaQuote">“Public transportation allows me to live outside
+      <p class="personalQuote">“Public transportation allows me to live outside
         of the city but still get to enjoy all the experiences of the
         city whenever I want.”</p>
 
-      <div class="verticalLine"></div> <!-- will become a vertical line-->
+      <hr class="break">
 
-      <img src="/images/katherine.png" alt="Katherine Kim">
-      <h2>Katherine Kim</h2>
-      <h3>Admissions Manager | 28 | Denver, CO</h3>
+      <img class="personaImg" src="/images/katherine.png" alt="Katherine Kim">
+      <span class="personaName">Katherine Kim</span>
+      <span class="personaDetails">Admissions Manager | 28 | Denver, CO</span>
       <p class="motivations">Motivations:</p>
-      <p>Katherine is an admissions manager in the Highlands neighborhood in
+      <p class="motivationsText">Katherine is an admissions manager in the Highlands neighborhood in
         Denver, CO. She and her husband love living in this neighborhood
         because their other favorite Denver neighborhoods, favorite restaurants,
         and the baseball stadium are all just a bike ride away. Kate also just
@@ -221,76 +243,77 @@
         reliable transit app that will help them use the public transit system
         to get around the city and to their places of work.</p>
       <p class="frustrations">Frustrations:</p>
-      <p>Katherine’s frustrations include apps with low userability  especailly
+      <p class="frustrationsText">Katherine’s frustrations include apps with low userability  especailly
         because she will be using it often as well as apps that have innaccurate
         times and schedules that could potentially make her late to
         work or social engagements.</p>
-      <p class="personaQuote">“The bus is the perfect place to relax and read.
+      <p class="personalQuote">“The bus is the perfect place to relax and read.
         You just let it take you where you need to go. ”</p>
-
-      <a class="redirectButton" href="https://drive.google.com/file/d/15_YIy6UP0JsOk4ONnmK67MAHnlriuYAa/view?usp=sharing" target="_blank">Meet Colin & Katherine</a>
+      <ul class="redirectButtons">
+        <li class="redirectButton">
+          <a class="buttonText" href="https://drive.google.com/file/d/15_YIy6UP0JsOk4ONnmK67MAHnlriuYAa/view?usp=sharing" target="_blank">Meet Colin & Katherine</a>
+        </li>
+      </ul>
     </section>
 
     <section class="phaseLabel">
-      <h1>Information Architecture Phase</h1>
+      <span class="phaseLabelText">Information Architecture Phase</span>
     </section>
 
     <!--User stories-->
-    <section id="userStories">
-      <h2>User Stories</h2>
-      <h3 class="subtitle"> | What Are User's Priorites?</h3>
-      <p>The research I conducted helped me gain a better understanding of my users
+    <section class="userStories">
+      <h5>User Stories | What Are User's Priorites?</h5>
+      <p class="sectionSubtitle">The research I conducted helped me gain a better understanding of my users
         and of which features of a public transit applications are of highest
         priority. Keeping these personas in mind, I compiled a list of user stories
         for new users, returning users, and administrative users to reach
         the minimum viable product.</p>
-      <p>Highest priority features included:</p>
-      <img src="/images/userprioritiesbb.png" alt="User Priorites">
-      <a class="redirectButton" href="https://docs.google.com/spreadsheets/d/1zerwqZSJdObrhOMqQYWE_3QdXnUbW3BcbI6NzPaTzlE/edit?usp=sharing" target="_blank">User Stories</a>
+      <p class="sectionSubtitle">Highest priority features included:</p>
+      <img class="surveyImg" src="/images/userprioritiesbb.png" alt="User Priorites">
+      <ul class="redirectButtons">
+        <li class="redirectButton">
+          <a class="buttonText" href="https://docs.google.com/spreadsheets/d/1zerwqZSJdObrhOMqQYWE_3QdXnUbW3BcbI6NzPaTzlE/edit?usp=sharing" target="_blank">User Stories</a>
+        </li>
+      </ul>
     </section>
 
     <!-- Inital Sketches -->
-    <section id="initalSketches">
-      <h2>Initial Sketches</h2>
-      <h3 class="subtitle"> | Getting Ideas Down on Paper</h3>
-      <p>I used the more in-depth understanding of my application from the
+    <section class="initialSketches">
+      <h5>Initial Sketches | Ideas Down on Paper</h5>
+      <p class="sectionSubtitle">I used the more in-depth understanding of my application from the
         creation of my user flows to start sketching out the interface. I
         incorporated the highest priority features in my sketches and completed
         multiple iterations of these sketches. I also  conducted 5 short
         usability tests using my initial sketches.</p>
-      <p>From the usability testing, I gathered three main important takeaways:</p>
-      <ol>
-        <li>Participants reported feeling that app was user friendly.</li>
-        <li>Not all participants knew that the map was interactive.</li>
-        <li>Participants were unsure where back buttons were leading to.</li>
-      </ol>
-      <img src="/images/initialsketchesBB.png" alt="Inital Sketches">
+      <p class="sectionSubtitle">From the usability testing, I gathered three main important takeaways:</p>
+      <p class="sectionSubtitle">1. Participants reported feeling that app was user friendly.</p>
+      <p class="sectionSubtitle">2. Not all participants knew that the map was interactive.</p>
+      <p class="sectionSubtitle">3. Participants were unsure where back buttons were leading to.</p>
+      <img class="surveyImg" src="/images/initialsketchesBB.png" alt="Inital Sketches">
     </section>
 
     <section class="phaseLabel">
-      <h1>Visual Design Phase</h1>
+      <span class="phaseLabelText">Visual Design Phase</span>
     </section>
 
     <!-- concept section -->
-    <section id="concept">
+    <section class="concept">
 
-      <h2>Concept</h2>
-      <h3 class="subtitle"> | Color Palettes</h3>
-      <p>I used colors to communicate and colors that would not conflict or
+      <h5>Concept | Color Palettes</h5>
+      <p class="sectionSubtitle">I used colors to communicate and colors that would not conflict or
         distract from one another. I chose to use a blue to show when specific
         items or icons were clickable as well as to show connections between
         items chosen and new pages. I kept my color palette consistent throughout
         the different screens from the button colors, information colors, and
         background colors. I also made sure to avoid using colors that make it
         hard for people to perceive the content.</p>
-      <p>Finally, I made sure, using the Contrast app from Apple, that my
+      <p class="sectionSubtitle">Finally, I made sure, using the Contrast app from Apple, that my
         contrast ratios received an AA or AAA rating so that my app would provide
         optimal legibility for all users.</p>
-      <img src="/images/colorpaletteBB.png" alt="Color Palettes">
+      <img class="conceptImg" src="/images/colorpaletteBB.png" alt="Color Palettes">
 
-      <h2>Concept</h2>
-      <h3 class="subtitle"> | Typography</h3>
-      <p>I used the typography guidelines outlined within the iOS resources
+      <h5>Concept | Typography</h5>
+      <p class="sectionSubtitle">I used the typography guidelines outlined within the iOS resources
         created for Figma and cross referenced my choices with the Apple Human
         Interface Guidelines. I stuck to SF Pro Text or SF Pro Display for any
         text within my prototype. I used these fonts because the interface
@@ -300,13 +323,12 @@
         For example, I used font size 20 and bold style for titles. I also
         minimized the number of typefaces I used as per recommendation
         by the guidelines</p>
-      <img src="/images/typographyBB.png" alt="Typography">
+      <img class="conceptImg" src="/images/typographyBB.png" alt="Typography">
     </section>
 
-    <section id="hifiMockups">
-      <h2>High Fidelity Mock Ups</h2>
-      <h3> | Responding to User Feedback</h3>
-      <p>I integrated the feedback from the usabilty tests I conducted with my
+    <section class="hifiMockups">
+      <h5>High-Fi Mock Ups | Responding to Feedback</h5>
+      <p class="sectionSubtitle">I integrated the feedback from the usabilty tests I conducted with my
         sketches and the visual work I did into the creation of a clickable
         prototype in Figma. In order to address the issues brought up by the
         participants of the usability tests, I created clear labels for the back
@@ -315,104 +337,125 @@
         icons such as location icons. In creating this clickable prototype I also
         followed the iOS Human Interface Guidelines to maintain consistency
         throughout my design.</p>
-      <img src="/images/visualBB.png" alt="Visual Mockups BusyBus">
+      <img class="hifiImg" src="/images/visualBB.png" alt="Visual Mockups BusyBus">
       </section>
 
       <section class="phaseLabel">
-        <h1>Development Phase</h1>
+        <span class="phaseLabelText">Development Phase</span>
       </section>
 
       <!-- Final Prototype-->
-      <section id="finalPrototype">
-        <h2>Final Prototype</h2>
-        <h3> | Putting it All Together</h3>
-        <p>My final step in creating this application was to code the final
+      <section class="finalPrototype">
+        <h5>Final Prototype | Putting it All Together</h5>
+        <p class="sectionSubtitle">My final step in creating this application was to code the final
           prototype. I used my knowledge of HTML and CSS to create the third screen
           of the visual prototype which lists the busses that arrive at a
           specific bus stop.</p>
-        <p>For this final prototype, I was given more information that I needed
+        <p class="sectionSubtitle">For this final prototype, I was given more information that I needed
           to account for that I did not plan for in my original hi-fidelity
           mock-up design such as direction of travel, busses that were rerouted,
           and busses that were out of service. I made decisions in the creation
           of this final prototype so that it would maintain consistency with the
           visual design and the iOS human interface guidelines in terms of features
           such as space, typography, hierarchy, and color choice.</p>
-        <p>Due to the fact that I needed to incorporate more information than I
+        <p class="sectionSubtitle">Due to the fact that I needed to incorporate more information than I
           had previously planned for, I also decided to add more labels that
           helped with organization of the information such as the
           labels “Next Bus” and “Arriving In”.</p>
-        <p>During the process I faced many new challenges from figuring out how
+        <p class="sectionSubtitle">During the process I faced many new challenges from figuring out how
           to avoid “divitus” and properly organizing the semantics of my code
           to figuring out how to create inline displays and other CSS basics. T
           hough I overcame these challenges and was able to create a finished
           product, I know there is much more to learn and more ways that I
           can revise this work.</p>
-        <p>In the end, this final prototype is a solution for the problem of a
+        <p class="sectionSubtitle">In the end, this final prototype is a solution for the problem of a
           transit system expansion that has led to a complexity of usage for the
           users of the transit system. This final product provides a simple,
           organized, and accurate way for riders to know what the next arriving
           bus us, when it will be there, and how long they have to get to the bus stop.</p>
-          <img src="/images/finalPrototypeBB.png" alt="Final Prototype BusyBus">
-          <a class="redirectButton" href="katywellington91bb.github.io" target="_blank">View Prototype</a> <!-- link might be broken -->
+          <img class="hifiImg" src="/images/finalPrototypeBB.png" alt="Final Prototype BusyBus">
+          <ul class="redirectButtons">
+            <li class="redirectButton">
+              <a class="buttonText" href="katywellington91bb.github.io" target="_blank">View Prototype</a> <!-- link might be broken -->
+            </li>
+          </ul>
       </section>
 
       <section class="phaseLabel">
-        <h1>Conclusion</h1>
+        <span class="phaseLabelText">Conclusion</span>
       </section>
 
       <!--conclusion section-->
-      <section id="conclusion">
-        <h2>Reflection</h2>
-        <h3 class="subtitle"> | Major Takeaways</h3>
-        <p>I learned the importance of understanding a companies design system
+      <section class="conclusion">
+        <h5>Reflection | Major Takeaways</h5>
+        <p class="sectionSubtitle">I learned the importance of understanding a companies design system
           and adhere to their brand guidelines to maintain consistency. In fact,
           I learned the value of maintaining consistency across a design. I
           will use this knowledge in future projects and when creating my
           own design systems.</p>
-        <p>I learned how more effectively implement user research in a way in
+        <p class="sectionSubtitle">I learned how more effectively implement user research in a way in
           which my designer bias does not impair my ability to fully understand
           the user’s needs.</p>
 
-        <div class="verticalLine"></div> <!-- will become a vertical line-->
+        <hr class="break">
 
-        <h2>Reflection</h2>
-        <h3 class="subtitle"> | Next Steps</h3>
-        <p>I will continute to use what I learned from this process and apply
+        <h5>Reflection | Next Steps</h5>
+        <p class="sectionSubtitle">I will continute to use what I learned from this process and apply
           my new  knowledge to future projects.</p>
-        <p>I will continue to improve upon my HTML5 and CSS3 skills as well as
+        <p class="sectionSubtitle">I will continue to improve upon my HTML5 and CSS3 skills as well as
           learn how to pair these with JavaScript to create full
           functioning prototypes.</p>
       </section>
 
       <!--Let's connect-->
-       <section id="connect">
-         <h4>Let's Connect!</h4>
-         <p>Like my work or just want to grab a cup of coffee and chat about UX? Please reach out!</p>
-         <a class="redirectButton" href="mailto:katywellington91@gmail.com">Message Me</a>
-         <a class="redirectButton" href="/images/wellington-resume.pdf/" target="_blank">Resume</a>
-       </section>
+      <section class="connect">
+        <div>
+          <h3 class="textGray">Let's Connect!</h3>
+          <p class="projectSubtitle textGray">Like my work or just want to
+            grab a cup of coffee and chat about UX?
+          <br>Please reach out!</p>
+          <ul class="redirectButtons">
+            <li class="redirectButton connectButton">
+              <a class="buttonText" href="mailto:katywellington91@gmail.com">Message Me</a>
+            </li>
+            <li class="redirectButton connectButton">
+              <a class="buttonText" href="/images/wellington-resume.pdf/" target="_blank">Resume</a>
+            </li>
+          </ul>
+        </div>
+      </section>
 
-       <!--footer-->
-       <footer>
-         <p>© 2020  |  Designed and developed by Katy Wellington <p>
-         <ul class="mdl-mini-footer__link-list">
-          <li>
-           <a href="https://www.linkedin.com/in/kwelli">
-             <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-           </a>
-          </li>
-          <li>
-           <a href ="https://github.com/katywellington91">
-             <i class="fa fa-github-square" aria-hidden="true"></i>
-           </a>
-         </li>
-         <li>
-           <a href="mailto:katywellington91@gmail.com">
-             <i class="fa fa-envelope-square" aria-hidden="true"></i>
-           </a>
-         </li>
-       </ul>
-     </footer>
+      <!--footer-->
+        <footer>
+          <div class= "footerDiv">
+            <p class="footerSubtitle textGray">© 2020  |  Katy Wellington <p>
+              <ul class=mediaList>
+                <li>
+                  <a href="https://www.linkedin.com/in/kwelli">
+                      <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href ="https://github.com/katywellington91">
+                      <i class="fa fa-github-square fa-2x" aria-hidden="true"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="mailto:katywellington91@gmail.com">
+                      <i class="fa fa-envelope-square fa-2x" aria-hidden="true"></i>
+                  </a>
+                </li>
+              </ul>
+          </div>
+        </footer>
+
+    <script>
+      let expandedNav = document.getElementById('expanded-nav');
+      let hamburger = document.getElementById('nav-hamburger');
+      hamburger.addEventListener('click', function() {
+        expandedNav.classList.toggle('expandedNav--hidden')
+      })
+    </script>
 
   </body>
 </html>
