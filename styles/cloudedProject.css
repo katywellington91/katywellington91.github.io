@@ -1,0 +1,557 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  scroll-behavior: smooth;
+
+  /* navigation bar */
+
+}
+
+body {
+  margin: 0;
+}
+
+footer {
+  background-color: #F2F3F3;
+}
+
+h1, h2, h3 {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  color: #403F3F;
+  font-family: "Noto Serif", serif;
+  font-size: 3.5rem;
+  font-weight: 700;
+  padding-top: 1.5em;
+}
+
+h2 {
+  display: flex;
+  color: #403F3F;
+  font-family: "Noto Serif", serif;
+  font-weight: 600;
+  font-size: 2rem;
+  margin: auto;
+  padding-bottom: 1em;
+  padding-top: 2em;
+  text-align: center;
+}
+
+h3 {
+  font-family: "Noto Serif", serif;
+  font-size: 2.5rem;
+  font-weight: 600;
+  padding-top: 0.5em;
+}
+
+h4 {
+  color: #403F3F;
+  font-family: "Noto Serif", serif;
+  font-size: 1.6rem;
+  font-weight: 600;
+  padding-top: 0.5em;
+}
+
+h5 {
+  color: #403F3F;
+  display: flex;
+  justify-content: center;
+  font-family: "Noto Serif", serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  padding-left: 0.5em;
+  padding-top: 1em;
+}
+
+
+.break {
+  color: #403F3F;
+  display: flex;
+  justify-content: center;
+  margin-top: 4em;
+  width: 20%;
+}
+
+.buttonText {
+  color: white;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1.5em;
+  text-decoration: none;
+}
+
+.cloud {
+  display: flex;
+  height: 40%;
+  margin: auto;
+  width: 40%
+}
+
+.cloudMoto {
+  display: flex;
+  color: #403F3F;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 400;
+  font-size: 1.4rem;
+  margin: auto;
+  padding: 1em;
+  text-align: center;
+}
+
+.cloudonComp {
+  height: 60%;
+  width: 100%;
+}
+
+.cloudSlogan {
+  display: flex;
+  color: #403F3F;
+  font-family: "Noto Serif", serif;
+  font-weight: 400;
+  font-size: 1.4rem;
+  font-style: italic;
+  margin: auto;
+  padding: 1em;
+  text-align: center;
+
+}
+
+.conceptImg {
+  width: 100%;
+  padding-top: 2em;
+}
+
+.conceptlogo {
+  background-color: #F2F3F3;
+  padding-top: 1.5em;
+}
+
+.conclusion {
+  padding-bottom: 3em;
+}
+
+.connect {
+  display: flex;
+  background-color: #f2f3f3;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 1em;
+  padding-bottom: 0em;
+  text-align: center;
+}
+
+
+.expandedNav {
+  font-family: "Source Sans Pro", sans-serif;
+  padding-bottom: 2em;
+  padding-top: 5em;
+  text-align: center;
+}
+
+.expandedNav--hidden {
+  display: none;
+}
+
+.expandedNavLink {
+  color: #403F3F;
+  font-size: 1.5em;
+  text-decoration: none;
+}
+
+.expandedNavLink:hover {
+  color: #91A3A3;
+}
+
+.fa {
+  color: #0A4F52;
+  padding-left: .5em;
+}
+
+.feedbackSubtitle {
+  display: flex;
+  justify-content: center;
+  margin-left: 5%;
+  margin-right: 5%;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 300;
+  padding-bottom: 1em;
+  text-align: center;
+}
+
+.feedbackV {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 1.5em;
+  width:100%;
+}
+
+.finalPrototype {
+  background-color: #F2F3F3;
+  padding-top: 1em;
+}
+
+.finalSubtitle {
+  display: flex;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 300;
+  justify-content: center;
+  margin-left: 2em;
+  margin-right: 2em;
+  text-align: left;
+
+}
+
+.footerDiv {
+  align-items: baseline;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+}
+
+.footerSubtitle {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 200;
+  line-height: 1.75em;
+  margin: 0 5%;
+  padding-top: 1.5em;
+  padding-bottom: 1em;
+  text-align: left;
+
+}
+
+.frustrations {
+  display: flex;
+  justify-content: center;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 600;
+  text-align: left;
+}
+
+.frustrationsText {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2em;
+  margin-right: 2em;
+  margin-left: 2em;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 300;
+  text-align: left;
+}
+
+.hamburgerButton {
+  height:5em;
+  float: right;
+  padding: 1.5em 1.5em;
+}
+
+.HifiMockup {
+  padding-bottom: 5em;
+}
+
+.interfaceChange {
+  display: flex;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 600;
+  justify-content: center;
+  padding-top: 2em;
+  padding-bottom: 1em;
+}
+
+.interfaceText {
+  display: flex;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 300;
+  justify-content: center;
+  margin: auto;
+  padding-left: 3em;
+  padding-right: 3em;
+  padding-bottom: 0.75em;
+  text-align: left;
+
+}
+
+.interfaceImg {
+  width: 100%;
+  padding-top: 2em;
+  padding-bottom: 2em;
+
+}
+
+.lightbulb {
+  align-self: center;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  padding-top: 5em;
+  width: 7%;
+}
+
+.listHeader {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin: auto;
+  padding-bottom: 0.5em;
+  padding-top: 1.5em;
+
+
+}
+
+.listItem {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 300;
+  margin: auto;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+
+}
+
+.logo {
+  height: 3.5em;
+  float: left;
+  margin: 1em 1.5em;
+
+}
+
+.mediaList{
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  margin: 0 5%;
+}
+
+.mockup {
+  padding-top: 2em;
+  width: 100%;
+
+}
+
+.motivations {
+  display: flex;
+  justify-content: center;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 600;
+  text-align: left;
+}
+
+.motivationsText {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2em;
+  margin-left: 2em;
+  margin-right: 2em;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 300;
+  text-align: left;
+}
+
+.personalQuote {
+  display: flex;
+  justify-content: center;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1.6rem;
+  font-style: italic;
+  font-weight: 500;
+  margin-left: 2em;
+  margin-right: 2em;
+  text-align: left;
+}
+
+.personaDetails {
+  display: flex;
+  color: #403F3F;
+  justify-content: center;
+  font-family: "Noto Serif", serif;
+  font-weight: 300;
+  font-size: 1.6rem;
+  margin: auto;
+  padding: 1em;
+  text-align: center;
+}
+
+.personaImg {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  padding-bottom: 1.5em;
+  padding-top: 2.5em;
+  width: 75%;
+}
+
+.personaName {
+  display: flex;
+  color: #403F3F;
+  justify-content: center;
+  font-family: "Noto Serif", serif;
+  font-weight: 300;
+  font-size: 2.5rem;
+  margin: auto;
+  padding: 1em;
+  text-align: center;
+}
+
+.phaseLabel {
+  background-color: #91A3A3;
+  margin: 0em;
+  padding: 1.5em;
+}
+
+.phaseLabelText {
+  display: flex;
+  justify-content: center;
+  color: #403F3F;
+  font-family: "Noto Serif", serif;
+  font-size: 2.5rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.preferencefeedback {
+  width: 100%;
+}
+
+.problem {
+  background-color: #F2F3F3;
+  margin-top: 3em;
+  padding-bottom: 3em;
+}
+
+
+.projectSubtitle {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 1.75em;
+  margin: 0 12%;
+  padding-top: 0em;
+  padding-bottom: 0.5em;
+  text-align: left;
+}
+
+
+.redirectButton {
+  background-color: #0A4F52;
+  border-radius: .5em;
+  display: inline-block;
+  margin: 0 3em 3em;
+  padding: .75em .75em;
+  text-align: center;
+}
+
+.redirectButtons {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 1em;
+  padding-left: 0;
+  padding-top: 1.5em;
+}
+
+.redirectButton:hover {
+  background-color: #053032;
+}
+
+.roles {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.sectionImg {
+  width: 100%;
+  padding-bottom: 5em;
+  padding-top: 1.5em;
+}
+
+.sectionSubtitle {
+  display: flex;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 300;
+  justify-content: center;
+  margin-left: 2em;
+  margin-right: 2em;
+  text-align: left;
+}
+
+.sketchesImg {
+  width: 100%;
+}
+
+.solutionSubtitle {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.75em;
+  margin: 0 12%;
+  padding-top: 0em;
+  padding-bottom: 1em;
+  text-align: left;
+}
+
+
+.textGray {
+  color: #373636;
+}
+
+
+.topNav {
+  background-color: #F2F3F3;
+  position: fixed;
+  width: 100%;
+}
+
+.userFlows {
+  background-color: #F2F3F3;
+}
+
+.userFlowsImg {
+  width:100%;
+}
+
+.userstoriesImg {
+  width:100%;
+}
+
+.testTask {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 300;
+}
+
+.textGray {
+  color: #373636;
+  text-align: center;
+
+}
+
+.usabilitytesting {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+}
+
+.wireframes {
+  background-color: #F2F3F3;
+  padding-bottom: 2em;
+}
+
+.wireframeExamples {
+  width: 100%;
+}
