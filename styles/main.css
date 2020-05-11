@@ -29,6 +29,7 @@ h1 {
   font-family: "Noto Serif", serif;
   font-size: 2.5rem;
   font-weight: 700;
+  margin-bottom: 0.5em;
   padding-top: 3em;
 }
 
@@ -37,7 +38,7 @@ h2 {
   font-family: "Noto Serif", serif;
   font-size: 1.8rem;
   font-weight: 400;
-  padding-top: 0.5em;
+  padding-top: 0em;
 }
 
 h3 {
@@ -151,8 +152,9 @@ h4 {
   border-radius: .5em;
   display: inline-block;
   margin: 0 3em 3em;
-  padding: .75em .75em;
+  padding: 1em 1em;
   text-align: center;
+  width: 8em;
 }
 
 .heroButton:hover {
@@ -164,6 +166,8 @@ h4 {
   font-family: "Source Sans Pro", sans-serif;
   font-size: 1.6rem;
   font-weight: 200;
+  line-height: 1.6em;
+  padding-bottom: 1em;
   padding-top: .5em;
   text-align: center;
 }
@@ -246,16 +250,18 @@ h4 {
   border-radius: .5em;
   display: inline-block;
   margin: 0 3em 3em;
-  padding: .75em .75em;
+  padding-bottom: 1.5em;
+  padding-top: 1.5em;
   text-align: center;
+  width: 12em;
 }
 
 .redirectButtons {
   display: flex;
   justify-content: center;
+  padding-bottom: 1em;
   padding-left: 0;
   padding-top: 1.5em;
-  padding-bottom: 1em;
 }
 
 .redirectButton:hover {
@@ -450,6 +456,7 @@ h4 {
 
 
   .logo {
+    height: 3em;
     margin: 0.75em 2.5em;
     padding-bottom: 0em;
   }

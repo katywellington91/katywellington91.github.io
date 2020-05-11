@@ -15,7 +15,7 @@ body {
 }
 
 footer {
-  background-color: #F2F3F3;
+  background-color: #ffff;
 }
 
 h1, h2, h3 {
@@ -28,6 +28,7 @@ h1 {
   font-family: "Noto Serif", serif;
   font-size: 3.5rem;
   font-weight: 700;
+  margin-bottom: 0.5em;
   padding-top: 1.5em;
 }
 
@@ -64,9 +65,10 @@ h5 {
   justify-content: center;
   font-family: "Noto Serif", serif;
   font-size: 1.6rem;
-  font-weight: 400;
-  padding-left: 0.5em;
-  padding-top: 1em;
+  font-weight: 500;
+  margin:auto;
+  padding-bottom: 2em;
+  padding-top: 3em;
 }
 
 
@@ -98,11 +100,16 @@ h5 {
   width: 100%;
 }
 
-
+.competitiveAnalysis {
+  background-color: #f2f3f3;
+}
 
 .conceptImg {
-  width: 100%;
-  padding-top: 2em;
+  display: flex;
+  margin: auto;
+  width: 95%;
+  padding-bottom: 1em;
+  padding-top: 2.5em;
 }
 
 .conceptlogo {
@@ -146,14 +153,40 @@ h5 {
   color: #91A3A3;
 }
 
+.expandedSubNav{
+  font-family: "Source Sans Pro", sans-serif;
+  padding-bottom: 2em;
+  padding-top: 5em;
+  text-align: center;
+}
+
+.expandedSubNav--hidden {
+  display: none;
+}
+
+.expandedsubNavLink{
+  color: #403F3F;
+  font-size: 1.5em;
+  text-decoration: none;
+}
+
 .fa {
   color: #0A4F52;
   padding-left: .5em;
 }
 
+.feedbackD2 {
+  display: flex;
+  justify-content: center;
+  padding-top: 2em;
+  padding-bottom: 1.5em;
+  width:100%;
+}
+
 .feedbackSubtitle {
   display: flex;
   justify-content: center;
+  line-height: 1.6em;
   margin-left: 5%;
   margin-right: 5%;
   font-family: "Source Sans Pro", sans-serif;
@@ -175,17 +208,6 @@ h5 {
   padding-top: 1em;
 }
 
-.finalSubtitle {
-  display: flex;
-  font-family: "Source Sans Pro", sans-serif;
-  font-size: 1.6rem;
-  font-weight: 300;
-  justify-content: center;
-  margin-left: 2em;
-  margin-right: 2em;
-  text-align: left;
-
-}
 
 .footerDiv {
   align-items: baseline;
@@ -204,27 +226,6 @@ h5 {
   padding-bottom: 1em;
   text-align: left;
 
-}
-
-.frustrations {
-  display: flex;
-  justify-content: center;
-  font-family: "Source Sans Pro", sans-serif;
-  font-size: 1.6rem;
-  font-weight: 600;
-  text-align: left;
-}
-
-.frustrationsText {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 2em;
-  margin-right: 2em;
-  margin-left: 2em;
-  font-family: "Source Sans Pro", sans-serif;
-  font-size: 1.6rem;
-  font-weight: 300;
-  text-align: left;
 }
 
 .hamburgerButton {
@@ -247,24 +248,10 @@ h5 {
   padding-bottom: 1em;
 }
 
-.interfaceText {
-  display: flex;
-  font-family: "Source Sans Pro", sans-serif;
-  font-size: 1.4rem;
-  font-weight: 300;
-  justify-content: center;
-  margin: auto;
-  padding-left: 3em;
-  padding-right: 3em;
-  padding-bottom: 0.75em;
-  text-align: left;
-
-}
-
 .interfaceImg {
   width: 100%;
   padding-top: 2em;
-  padding-bottom: 2em;
+  padding-bottom: 1em;
 
 }
 
@@ -327,28 +314,18 @@ h5 {
   text-align: left;
 }
 
-.motivationsText {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 2em;
-  margin-left: 2em;
-  margin-right: 2em;
-  font-family: "Source Sans Pro", sans-serif;
-  font-size: 1.6rem;
-  font-weight: 300;
-  text-align: left;
-}
 
 
 .personaDetails {
   display: flex;
   color: #403F3F;
   justify-content: center;
-  font-family: "Noto Serif", serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-weight: 300;
   font-size: 1.6rem;
   margin: auto;
-  padding: 1em;
+  padding-bottom: 1.5em;
+  padding-top: 0.25em;
   text-align: center;
 }
 
@@ -368,9 +345,11 @@ h5 {
   font-size: 1.6rem;
   font-style: italic;
   font-weight: 500;
-  margin-left: 2em;
-  margin-right: 2em;
-  text-align: left;
+  line-height: 1.6em;
+  margin-left: 3em;
+  margin-right: 3em;
+  padding-top: 0.75em;
+  text-align: center;
 }
 
 .personaName {
@@ -379,7 +358,7 @@ h5 {
   justify-content: center;
   font-family: "Noto Serif", serif;
   font-weight: 300;
-  font-size: 2.5rem;
+  font-size: 2rem;
   margin: auto;
   padding: 1em;
   text-align: center;
@@ -396,7 +375,7 @@ h5 {
   justify-content: center;
   color: #403F3F;
   font-family: "Noto Serif", serif;
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: 600;
   text-align: center;
 }
@@ -417,7 +396,9 @@ h5 {
   font-family: "Source Sans Pro", sans-serif;
   font-weight: 400;
   font-size: 1.4rem;
-  margin: auto;
+  line-height: 2em;
+  margin-left: 1.25em;
+  margin-right: 1.25em;
   padding: 1em;
   text-align: center;
 }
@@ -429,7 +410,9 @@ h5 {
   font-weight: 400;
   font-size: 1.4rem;
   font-style: italic;
-  margin: auto;
+  line-height: 2em;
+  margin-left: 1.5em;
+  margin-right: 1.5em;
   padding: 1em;
   text-align: center;
 
@@ -452,8 +435,10 @@ h5 {
   border-radius: .5em;
   display: inline-block;
   margin: 0 3em 3em;
-  padding: .75em .75em;
+  padding-bottom: 1.5em;
+  padding-top: 1.5em;
   text-align: center;
+  width: 12em;
 }
 
 .redirectButtons {
@@ -476,9 +461,12 @@ h5 {
 }
 
 .sectionImg {
-  width: 100%;
-  padding-bottom: 5em;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  padding-bottom: 2em;
   padding-top: 1.5em;
+  width: 90%;
 }
 
 .sectionSubtitle {
@@ -487,12 +475,15 @@ h5 {
   font-size: 1.6rem;
   font-weight: 300;
   justify-content: center;
-  margin-left: 2em;
-  margin-right: 2em;
+  line-height: 1.6em;
+  margin: 0 12%;
+  padding-bottom: .5em;
   text-align: left;
 }
 
 .sketchesImg {
+  padding-bottom: 3em;
+  padding-top: 1.5em;
   width: 100%;
 }
 
@@ -507,30 +498,55 @@ h5 {
   text-align: left;
 }
 
-
-.textGray {
-  color: #373636;
+.storiesSubtitle {
+  display: flex;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 500;
+  justify-content: left;
+  line-height: 1.6em;
+  margin: 0 12%;
+  padding-bottom: 1em;
+  padding-top: 1em;
+  text-align: left;
 }
 
 
-.topNav {
-  background-color: #F2F3F3;
-  position: fixed;
+.subNav {
+  background-color: #91A3A3;
   width: 100%;
 }
 
-.userFlows {
-  background-color: #F2F3F3;
+
+.subNavText {
+  color:#403F3F;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  padding-bottom: 0.5em;
+  padding-top: 0.5em;
+  text-decoration: none;
 }
 
-.userFlowsImg {
-  width:100%;
+.takeaways {
+  padding-top: 0.75em;
 }
 
-.userstoriesImg {
-  width:100%;
+.task {
+  display: flex;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 300;
+  justify-content: flex-start;
+  line-height: 1.6em;
+  margin: 0 12%;
+  padding-bottom: .5em;
+  text-align: left;
 }
 
+.testingImg {
+  width: 90%;
+}
 .testTask {
   font-family: "Source Sans Pro", sans-serif;
   font-size: 1.6rem;
@@ -539,8 +555,26 @@ h5 {
 
 .textGray {
   color: #373636;
+}
+
+.textGray {
+  color: #373636;
   text-align: center;
 
+}
+
+.topNav {
+  background-color: #F2F3F3;
+  position: fixed;
+  width: 100%;
+}
+
+.typoImg {
+  display: flex;
+  margin: auto;
+  width: 95%;
+  padding-bottom: 5em;
+  padding-top: 2.5em;
 }
 
 .usabilitytesting {
@@ -550,11 +584,34 @@ h5 {
   margin: auto;
 }
 
+.userFlows {
+  background-color: #F2F3F3;
+}
+
+.userFlowsImg {
+  display: flex;
+  margin: auto;
+  padding-bottom: 1.5em;
+  padding-top: 2.5em;
+  width:95%;
+}
+
+.userstoriesImg {
+  padding-bottom: 1.5em;
+  padding-top: 2.5em;
+  width:100%;
+}
+
+
 .wireframes {
   background-color: #F2F3F3;
   padding-bottom: 2em;
 }
 
 .wireframeExamples {
-  width: 100%;
+  display: flex;
+  margin: auto;
+  padding-bottom: 2em;
+  padding-top: 2em;
+  width: 93%;
 }

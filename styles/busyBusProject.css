@@ -15,7 +15,7 @@ body {
 }
 
 footer {
-  background-color: #F2F3F3;
+  background-color: #FFFF;
 }
 
 h1, h2, h3 {
@@ -100,6 +100,7 @@ h5 {
 
 .competitiveAnalysis {
   background-color: #f2f3f3;
+  padding-top: 1.5em;
 }
 
 .conceptImg {
@@ -167,26 +168,6 @@ h5 {
 
 }
 
-.frustrations {
-  display: flex;
-  justify-content: center;
-  font-family: "Source Sans Pro", sans-serif;
-  font-size: 1.6rem;
-  font-weight: 600;
-  text-align: left;
-}
-
-.frustrationsText {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 2em;
-  margin-right: 2em;
-  margin-left: 2em;
-  font-family: "Source Sans Pro", sans-serif;
-  font-size: 1.6rem;
-  font-weight: 300;
-  text-align: left;
-}
 
 .hamburgerButton {
   height:5em;
@@ -197,6 +178,7 @@ h5 {
 .hifiImg {
   display: flex;
   margin: auto;
+  padding-bottom: 1.5em;
   padding-top: 3em;
   width: 75%;
 }
@@ -204,10 +186,12 @@ h5 {
 .hifiMockups {
   background-color: #f2f3f3;
   padding-bottom: 4em;
+  padding-top: 1.5em;
 }
 
 .initialSketches {
   background-color: #f2f3f3;
+  padding-top: 1.5em;
 }
 
 .lightbulb {
@@ -263,27 +247,17 @@ h5 {
   text-align: left;
 }
 
-.motivationsText {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 2em;
-  margin-left: 2em;
-  margin-right: 2em;
-  font-family: "Source Sans Pro", sans-serif;
-  font-size: 1.6rem;
-  font-weight: 300;
-  text-align: left;
-}
 
 .personaDetails {
   display: flex;
   color: #403F3F;
   justify-content: center;
-  font-family: "Noto Serif", serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-weight: 300;
   font-size: 1.6rem;
   margin: auto;
-  padding: 1em;
+  padding-bottom: 1.5em;
+  padding-top: 0.25em;
   text-align: center;
 }
 
@@ -303,9 +277,11 @@ h5 {
   font-size: 1.6rem;
   font-style: italic;
   font-weight: 500;
-  margin-left: 2em;
-  margin-right: 2em;
-  text-align: left;
+  line-height: 1.6em;
+  margin-left: 3em;
+  margin-right: 3em;
+  padding-top: 0.75em;
+  text-align: center;
 }
 
 .personaName {
@@ -314,7 +290,7 @@ h5 {
   justify-content: center;
   font-family: "Noto Serif", serif;
   font-weight: 300;
-  font-size: 2.5rem;
+  font-size: 2rem;
   margin: auto;
   padding: 1em;
   text-align: center;
@@ -331,7 +307,7 @@ h5 {
   justify-content: center;
   color: #403F3F;
   font-family: "Noto Serif", serif;
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: 600;
   text-align: center;
 }
@@ -342,7 +318,9 @@ h5 {
   font-family: "Source Sans Pro", sans-serif;
   font-weight: 400;
   font-size: 1.4rem;
-  margin: auto;
+  line-height: 2em;
+  margin-left: 1.25em;
+  margin-right: 1.25em;
   padding: 1em;
   text-align: center;
 }
@@ -354,7 +332,9 @@ h5 {
   font-weight: 400;
   font-size: 1.4rem;
   font-style: italic;
-  margin: auto;
+  line-height: 2em;
+  margin-left: 1.5em;
+  margin-right: 1.5em;
   padding: 1em;
   text-align: center;
 
@@ -377,8 +357,10 @@ h5 {
   border-radius: .5em;
   display: inline-block;
   margin: 0 3em 3em;
-  padding: .75em .75em;
+  padding-bottom: 1.5em;
+  padding-top: 1.5em;
   text-align: center;
+  width: 12em;
 }
 
 .redirectButtons {
@@ -406,9 +388,18 @@ h5 {
   font-size: 1.6rem;
   font-weight: 300;
   justify-content: center;
-  margin-left: 2em;
-  margin-right: 2em;
+  line-height: 1.6em;
+  margin: 0 12%;
+  padding-bottom: .5em;
   text-align: left;
+}
+
+.sketchesImg {
+  display: flex;
+  margin: auto;
+  padding-bottom: 4em;
+  padding-top: 3em;
+  width: 90%
 }
 
 .solution {
@@ -422,6 +413,19 @@ h5 {
   width: 100%;
 }
 
+.storiesSubtitle {
+  display: flex;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 500;
+  justify-content: left;
+  line-height: 1.6em;
+  margin: 0 12%;
+  padding-bottom: 1em;
+  padding-top: 1em;
+  text-align: left;
+}
+
 .surveyImg {
   width: 100%;
   padding-bottom: 2em;
@@ -432,4 +436,26 @@ h5 {
   color: #373636;
   text-align: center;
 
+}
+
+.topNav {
+  background-color: #F2F3F3;
+  position: fixed;
+  width: 100%;
+}
+
+.typoImg {
+  display: flex;
+  margin: auto;
+  width: 95%;
+  padding-bottom: 4em;
+  padding-top: 2.5em;
+}
+
+.userstoriesImg {
+  display: flex;
+  margin: auto;
+  padding-bottom: 1.5em;
+  padding-top: 2.5em;
+  width:95%;
 }
