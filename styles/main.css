@@ -83,6 +83,17 @@ h4 {
   font-family: "Source Sans Pro", sans-serif;
 }
 
+.connectText {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 300;
+  line-height: 1.75em;
+  margin: 0 8%;
+  padding-top: 0em;
+  padding-bottom: 0.5em;
+  text-align: center;
+}
+
 .expandedNav {
   text-align: center;
   padding-bottom: 2em;
@@ -391,7 +402,7 @@ h4 {
 
   .backgroundWhite {
     background-color: white;
-    color: #373636;
+    color: #0A4F52;
   }
 
 
@@ -403,20 +414,25 @@ h4 {
     padding: 0.5em
   }
 
-  .connect li  {
-    margin-bottom: 3em;
-    margin-right: 5rem;
+
+  .connect {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding-bottom: 2.5rem;
 
   }
 
 
-  .connect p {
-    display: flex;
-    justify-content: center;
-    margin: auto;
-    width: 28%;
-    padding-bottom: 2.5rem;
-
+  .connectText {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 1.75em;
+    margin: 0 12%;
+    padding-top: 0em;
+    padding-bottom: 0.5em;
+    text-align: center;
   }
 
   .expandedNav {
@@ -438,6 +454,12 @@ h4 {
 
   .hamburgerButton {
     display: none;
+  }
+
+  .heroButton {
+    width: 15em;
+    padding-bottom: 1.5em;
+    padding-top: 1.5em;
   }
 
   .heroButtons {
@@ -510,6 +532,10 @@ h4 {
 
   .projectKeyword {
     display: flex;
+    margin: auto;
+    padding-left: 1em;
+    padding-right: 1em;
+    text-align: center;
 
   }
 
@@ -517,9 +543,11 @@ h4 {
   .projectKeywords {
     border-radius: 0px;
     display: flex;
+    flex-direction: row;
     font-family: "Source Sans Pro", sans-serif;
     font-size: 1.4rem;
     font-weight: 500;
+    justify-content: center;
     list-style: none;
     margin-bottom: 1em;
     margin-right: 1em;
@@ -564,6 +592,7 @@ h4 {
 
   .redirectButton {
     margin: 0;
+    width: 18em;
 
   }
 

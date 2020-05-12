@@ -117,9 +117,46 @@ h5 {
   padding-top: 1.5em;
 }
 
+.conceptlogoImg {
+  display: flex;
+  margin: auto;
+  width: 95%;
+  padding-bottom: 1em;
+  padding-top: 2.5em;
+}
+
+.conceptSubtitle {
+    display: flex;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 1.6rem;
+    font-weight: 300;
+    justify-content: center;
+    line-height: 1.6em;
+    margin: 0 12%;
+    padding-bottom: .5em;
+    text-align: left;
+
+}
+
 .conclusion {
   padding-bottom: 3em;
 }
+
+.conclusionSubtitle {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 300;
+  line-height: 1.6em;
+}
+
+.conclusionSubtitleAlign {
+  display: flex;
+  justify-content: center;
+  margin: 0 12%;
+  padding-bottom: .5em;
+  text-align: left;
+}
+
 
 .connect {
   display: flex;
@@ -128,6 +165,17 @@ h5 {
   justify-content: center;
   padding-top: 1em;
   padding-bottom: 0em;
+  text-align: center;
+}
+
+.connectText {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 300;
+  line-height: 1.75em;
+  margin: 0 8%;
+  padding-top: 0em;
+  padding-bottom: 0.5em;
   text-align: center;
 }
 
@@ -208,6 +256,27 @@ h5 {
   padding-top: 1em;
 }
 
+.finalSubtitle {
+  display: flex;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 300;
+  justify-content: center;
+  line-height: 1.6em;
+  margin: 0 12%;
+  padding-bottom: .5em;
+  text-align: left;
+}
+
+.firstsectionImg {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  padding-bottom: 2em;
+  padding-top: 1.5em;
+  width: 90%;
+}
+
 
 .footerDiv {
   align-items: baseline;
@@ -234,6 +303,23 @@ h5 {
   padding: 1.5em 1.5em;
 }
 
+.heroButtons {
+  display: flex;
+  justify-content: center;
+  padding-left: 0%;
+  padding-top: 1.5em;
+}
+
+.heroButton {
+  background-color: #0A4F52;
+  border-radius: .5em;
+  display: inline-block;
+  margin: 0 3em 3em;
+  padding: 1.5em 1.5em;
+  text-align: center;
+  width: 10em;
+}
+
 .HifiMockup {
   padding-bottom: 5em;
 }
@@ -248,10 +334,39 @@ h5 {
   padding-bottom: 1em;
 }
 
+.interfaceChangeSubtitle {
+  display: flex;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 300;
+  justify-content: center;
+  line-height: 1.6em;
+  margin: 0 12%;
+  padding-bottom: .5em;
+  text-align: left;
+}
+
+.interfaceChangeTitle {
+  display: flex;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 600;
+  justify-content: center;
+  padding-top: 2em;
+  padding-bottom: 1em;
+}
+
+.interfaceFinalImg {
+    width: 100%;
+    padding-top: 3em;
+    padding-bottom: 3em;
+
+}
+
 .interfaceImg {
   width: 100%;
   padding-top: 2em;
-  padding-bottom: 1em;
+  padding-bottom: 3em;
 
 }
 
@@ -364,6 +479,18 @@ h5 {
   text-align: center;
 }
 
+.personaText {
+  display: flex;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 300;
+  justify-content: center;
+  line-height: 1.6em;
+  margin: 0 12%;
+  padding-bottom: .5em;
+  text-align: left;
+}
+
 .phaseLabel {
   background-color: #91A3A3;
   margin: 0em;
@@ -380,8 +507,16 @@ h5 {
   text-align: center;
 }
 
-.preferencefeedback {
+.preferencefeedbackImg {
   width: 100%;
+}
+
+.preferenceImg {
+  display: flex;
+  margin: auto;
+  width: 95%;
+  padding-bottom: 1em;
+  padding-top: 2.5em;
 }
 
 .problem {
@@ -453,6 +588,7 @@ h5 {
   background-color: #053032;
 }
 
+
 .roles {
   display: flex;
   flex-direction: column;
@@ -460,7 +596,20 @@ h5 {
   text-align: center;
 }
 
+.secondsectionImg {
+  display: none;
+}
+
 .sectionImg {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  padding-bottom: 2em;
+  padding-top: 1.5em;
+  width: 90%;
+}
+
+.section-Img {
   display: flex;
   justify-content: center;
   margin: auto;
@@ -547,6 +696,7 @@ h5 {
 .testingImg {
   width: 90%;
 }
+
 .testTask {
   font-family: "Source Sans Pro", sans-serif;
   font-size: 1.6rem;
@@ -578,10 +728,7 @@ h5 {
 }
 
 .usabilitytesting {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin: auto;
+  padding-bottom: 3em;
 }
 
 .userFlows {
@@ -602,6 +749,15 @@ h5 {
   width:100%;
 }
 
+.wand {
+  align-self: center;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  padding-top: 5em;
+  width: 9%;
+}
+
 
 .wireframes {
   background-color: #F2F3F3;
@@ -614,4 +770,704 @@ h5 {
   padding-bottom: 2em;
   padding-top: 2em;
   width: 93%;
+}
+
+@media only screen and (min-width: 600px) {
+
+  h1, h2 {
+    display: flex;
+    justify-content: center;
+  }
+
+  h1 {
+    color: #403F3F;
+    font-family: "Noto Serif", serif;
+    font-size: 3.5rem;
+    font-weight: 700;
+    padding-top: 2.5em;
+  }
+
+  h2 {
+    color: #403F3F;
+    font-family: "Noto Serif", serif;
+    font-size: 2.5rem;
+    font-weight: 600;
+    padding-bottom: 1.5em;
+    padding-top: 0.5em;
+  }
+
+  h3 {
+    font-family: "Noto Serif", serif;
+    font-size: 3.5rem;
+    font-weight: 600;
+  }
+
+  h4{
+    display: flex;
+    align-content: flex-start;
+    font-size: 2rem;
+    font-style: "Source Sans Pro". sans-serif;
+  }
+
+  h5 {
+    color: #403F3F;
+    display: flex;
+    justify-content: flex-start;
+    font-family: "Noto Serif", serif;
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin: auto;
+    padding-bottom: 2em;
+    padding-left: 5%;
+    padding-top: 3em;
+  }
+
+  .alignLeft {
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 5em;
+    text-align: left;
+  }
+
+  .buttonText {
+    color: white;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 2.0em;
+    text-decoration: none;
+    padding: 0.5em
+  }
+
+  .break {
+    display: none;
+
+  }
+
+  .cloud {
+    display: flex;
+    height: 10%;
+    margin: auto;
+    padding-bottom: 1.5em;
+    padding-top: 1.5em;
+    width: 14%
+  }
+
+  .cloudonComp {
+    padding-bottom: 4em;
+    padding-top: 4em;
+  }
+
+  .competitiveAnalysis {
+    padding-bottom: 4em;
+  }
+
+  .conceptBox {
+    display: inline-flex;
+    justify-content: space-around;
+    margin: auto;
+    padding-bottom: 4em;
+    padding-left: 5%;
+    padding-right: 7%;
+    padding-top: 2em;
+    width: 100%;
+  }
+
+  .conceptImg {
+    padding-top: 0em;
+    width: 30%;
+  }
+
+  .conceptlogo {
+    padding-bottom: 4em;
+  }
+
+  .conceptlogoImg {
+    display: flex;
+    margin: auto;
+    padding-top: 4em;
+    width: 70%;
+  }
+
+  .conceptSubtitle {
+    display: flex;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 1.6rem;
+    font-weight: 300;
+    justify-content: flex-start;
+    margin-left: 0em;
+    line-height: 1.6em;
+    text-align: left;
+
+  }
+
+  .conclusion {
+    padding-bottom: 4em;
+  }
+
+  .conclusionBoxes {
+    display: inline-flex;
+    justify-content: space-around;
+    padding-left: 7%;
+    padding-right: 7%;
+    width:100%;
+  }
+
+  .conclusionBox1 {
+    margin: 0em;
+    padding-right: 5em;
+    width: 100%;
+  }
+
+  .conclusionBox2 {
+    margin: 0em;
+    padding-top: 0em;
+    width: 100%;
+  }
+
+  .conclusionSubtitle {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 1.6em;
+  }
+
+  .conclusionSubtitleAlign {
+    display: flex;
+    padding-bottom: .5em;
+    text-align: left;
+  }
+
+  .conclusionTitle {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 7%;
+  }
+
+  .connect {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding-bottom: 2.5rem;
+
+  }
+
+  .connectText {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 1.75em;
+    margin: 0 12%;
+    padding-top: 0em;
+    padding-bottom: 0.5em;
+    text-align: center;
+  }
+
+
+  .deliverRoles {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 10em;
+    margin-right:10em;
+    padding-bottom: 4em;
+
+  }
+
+  .expandedNav {
+    margin-left: auto;
+    margin-right: 0;
+    padding-bottom: 0;
+    padding-top: 1rem;
+  }
+
+  .expandedNav--hidden {
+    display: flex;
+  }
+
+  .expandedNavLink {
+    margin-right: 4.8rem;
+
+  }
+
+  .feedbackD2 {
+    width: 50%
+  }
+
+  .feedbackV {
+    width: 50%
+  }
+
+  .finalPrototype {
+    padding-bottom: 4em;
+  }
+
+
+  .finalprototypeBox {
+    display: inline-flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 3em;
+  }
+
+  .finalSubtitle {
+    margin-left: 0em;
+  }
+
+  .firstsectionImg {
+    display: none;
+  }
+
+  .hamburgerButton {
+    display: none;
+  }
+
+  .heroButtons {
+    display: flex;
+    justify-content: center;
+    padding-left: 0%;
+    padding-top: 1.5em;
+  }
+
+  .heroButton {
+    background-color: #0A4F52;
+    border-radius: .5em;
+    display: inline-block;
+    margin: 0 3em 3em;
+    padding: 1.5em 1.5em;
+    text-align: center;
+    width: 15em;
+  }
+
+  .heroSubtitle {
+    color: #403F3F;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 3rem;
+    font-weight: 200;
+    padding-top: .3em;
+    padding-bottom: 1em;
+    text-align: center;
+  }
+
+  .interfaceChange {
+    font-size: 2.0rem;
+    margin: 0 5%;
+    justify-content: left;
+  }
+
+  .interfaceChangeSubtitle {
+    margin-left: 20em;
+    margin-right: 5%;
+    padding-bottom: .5em;
+    text-align: left;
+  }
+
+  .interfaceChangeTitle {
+    margin: 0em;
+    padding-bottom: 1em;
+    padding-left: 15.5em;
+    width: 60%
+  }
+
+  .interfaceImg {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 3em;
+    padding-top: 3em;
+    margin: auto;
+    width: 60%;
+
+  }
+
+  .lightbulb {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding-top: 0em;
+    width: 17%;
+  }
+
+  .listHeader {
+    display: flex;
+    flex-direction: column;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 1.8rem;
+    font-weight: 700;
+    justify-content: flex-start;
+    margin:0em;
+
+  }
+
+  .listItem {
+    display: block;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 1.6rem;
+    font-weight: 300;
+
+  }
+
+  .logo {
+    height: 3em;
+    margin: 0.75em 2.5em;
+    padding-bottom: 0em;
+  }
+
+  .mobile {
+    padding-bottom: 4em;
+  }
+
+  .motivations {
+    display: flex;
+    justify-content: flex-start;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 1.6rem;
+    font-weight: 600;
+    text-align: left;
+  }
+
+  .onboardingBoxes {
+    display: inline-flex;
+    margin: auto;
+    padding-bottom: 4em;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 4em;
+    width: 100%;
+  }
+
+  .onboardingBox2 {
+    padding-left: 15em;
+  }
+
+  .pencil {
+    padding-top: 10.5em;
+  }
+
+  .personaText {
+    display: flex;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 1.6rem;
+    font-weight: 300;
+    justify-content: flex-start;
+    line-height: 1.6em;
+    margin: 0;
+    padding-bottom: .5em;
+    text-align: left;
+  }
+
+
+  .personaBoxes {
+    display: inline-flex;
+    justify-content: space-around;
+    margin: auto;
+    padding-bottom: 4em;
+    padding-left: 10em;
+    padding-right: 10em;
+    padding-top: 4em;
+    width: 100%;
+  }
+
+  .personBox1 {
+    padding-right: 15em;
+  }
+
+  .personaBox2 {
+    padding-left: 15em;
+    padding-top: 2em;
+  }
+
+
+  .personaDetails {
+    background-color: #E9EEEE;
+    display: flex;
+    color: #403F3F;
+    justify-content: center;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 300;
+    font-size: 1.6rem;
+    margin: auto;
+    padding-bottom: 1.5em;
+    padding-top: 0.25em;
+    text-align: center;
+  }
+
+  .personaImg {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding-bottom: 1.5em;
+    padding-top: 2.5em;
+    width: 60%;
+  }
+
+  .personalQuote {
+    display: flex;
+    justify-content: center;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 1.6rem;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 1.6em;
+    margin-left: 3em;
+    margin-right: 3em;
+    padding-top: 0.75em;
+    text-align: center;
+  }
+
+  .personaName {
+    background-color: #E9EEEE;
+    display: flex;
+    color: #403F3F;
+    justify-content: center;
+    font-family: "Noto Serif", serif;
+    font-weight: 300;
+    font-size: 2rem;
+    margin: auto;
+    padding: 1em;
+    text-align: center;
+  }
+
+  .phaseLabel {
+    background-color: #91A3A3;
+    margin: 0em;
+    padding: 2em;
+  }
+
+  .phaseLabelText {
+    display: flex;
+    justify-content: center;
+    color: #403F3F;
+    font-family: "Noto Serif", serif;
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  .preferenceBox {
+    display: inline-flex;
+    width: 100%;
+
+  }
+
+  .preferencefeedbackImg {
+    display: flex;
+    justify-content: center;
+    margin:auto;
+    width: 40%;
+  }
+
+  .preferenceImg {
+    display: flex;
+    justify-content: center;
+    margin:auto;
+    padding-bottom: 4em;
+    padding-top: 4em;
+    width: 40%;
+  }
+
+  .problem {
+    display: flex;
+    padding-top: 4em;
+    flex-direction: row;
+    margin: auto;
+    padding-left: 10%;
+  }
+
+  .projectMoto {
+    display: flex;
+    color: #403F3F;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 300;
+    font-size: 2.5rem;
+    justify-content: center;
+    line-height: 2em;
+    margin: 0 20%;
+    padding: 1em;
+    text-align: center;
+  }
+
+  .projectSlogan {
+    display: flex;
+    color: #403F3F;
+    font-family: "Noto Serif", serif;
+    font-weight: 400;
+    font-size: 2.5rem;
+    font-style: italic;
+    justify-content: center;
+    line-height: 2em;
+    margin: 0 20%;
+    padding: 1em;
+    text-align: center;
+
+  }
+
+  .projectSubtitle {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 1.75em;
+    margin: 0 20%;
+    padding-top: 0em;
+    padding-bottom: 0.5em;
+    text-align: left;
+  }
+
+
+   .redirectButton {
+     margin: 0;
+     width: 18em;
+
+   }
+
+   .redirectButtons {
+     display: flex;
+   }
+
+   .resultImages {
+     display: flex;
+     flex-direction: row;
+     margin-left: 15%;
+     margin-right: 15%;
+     padding-bottom: 3em;
+
+   }
+
+   .roles {
+     display: flex;
+     margin-bottom: 3em;
+
+   }
+
+   .secondsectionImg {
+     display: flex;
+     margin: auto;
+     padding-bottom: 3em;
+     padding-top: 3em;
+     width: 90%;
+   }
+
+   .sectionImg {
+     width: 60%;
+   }
+
+   .section-Img {
+     display: flex;
+     margin: auto;
+     padding-top: 4em;
+     width: 40%;
+   }
+
+   .sectionSubtitle {
+     display: flex;
+     font-family: "Source Sans Pro", sans-serif;
+     font-size: 1.6rem;
+     font-weight: 300;
+     justify-content: flex-start;
+     line-height: 1.6em;
+     margin-left: 5%;
+     margin-right: 40%;
+     padding-bottom: .5em;
+     text-align: left;
+   }
+
+   .storiesSubtitle {
+     margin: 0 5%;
+   }
+
+   .solution {
+     display: flex;
+     padding-top: 4em;
+     flex-direction: row;
+     margin: auto;
+     padding-bottom: 3em;
+     padding-left: 10%;
+
+   }
+
+   .solutionSubtitle {
+     font-family: "Source Sans Pro", sans-serif;
+     font-size: 2rem;
+     font-style: italic;
+     font-weight: 500;
+     margin: 0 20%;
+     padding-top: 0em;
+     padding-bottom: 0.5em;
+     text-align: left;
+   }
+
+   .task {
+     font-weight: 500;
+     margin: 0 5%;
+     padding-top: 0.5em;
+   }
+
+   .testFeebackVersions {
+     display: inline-flex;
+     margin: 0 2.5%;
+   }
+
+   .testingImg {
+     width: 400%;
+   }
+
+   .topNav {
+     display: flex;
+     background-color: #F2F3F3;
+     border: 1px solid: #F2F3F3;
+     font-family: "Source Sans Pro", sans-serif;
+     font-size: 1.5rem;
+     margin: auto;
+     position: fixed;
+     width: 100%;
+   }
+
+   .typoImg {
+     padding-top: 0em;
+     width: 40%;
+   }
+
+
+   .userFlows {
+     padding-bottom: 4em;
+   }
+
+   .userResearch {
+     padding-bottom: 4em;
+   }
+
+   .userPersonas {
+     padding-bottom: 4em;
+   }
+
+   .userStories {
+     padding-bottom: 4em;
+   }
+
+   .userstoriesImg {
+     display: flex;
+     justify-content: center;
+     margin: auto;
+     width:80%;
+   }
+
+   .verticalLine {
+     height: 35em;
+     margin-right: 4em;
+     margin-top: 12em;
+     width:.25em;
+     background-color: #373636;
+   }
+
+
+   .wand {
+     display: flex;
+     justify-content: center;
+     margin: 0em;
+     padding-top: 4em;
+     width: 30%;
+   }
+
+   .wireframes {
+     padding-bottom: 4em;
+   }
+
+
 }
