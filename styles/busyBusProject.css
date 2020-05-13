@@ -797,6 +797,10 @@ h5 {
     width: 15em;
   }
 
+  .heroButton:hover {
+    background-color: #053032;
+  }
+
   .heroSubtitle {
     color: #403F3F;
     font-family: "Source Sans Pro", sans-serif;
