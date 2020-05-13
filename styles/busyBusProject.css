@@ -108,8 +108,37 @@ h5 {
   padding-top: 2em;
 }
 
+.conceptSubtitle {
+    display: flex;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 1.6rem;
+    font-weight: 300;
+    justify-content: center;
+    line-height: 1.6em;
+    margin: 0 12%;
+    padding-bottom: .5em;
+    text-align: left;
+
+}
+
+
 .conclusion {
   padding-bottom: 3em;
+}
+
+.conclusionSubtitle {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 300;
+  line-height: 1.6em;
+}
+
+.conclusionSubtitleAlign {
+  display: flex;
+  justify-content: center;
+  margin: 0 12%;
+  padding-bottom: .5em;
+  text-align: left;
 }
 
 .connect {
@@ -119,6 +148,17 @@ h5 {
   justify-content: center;
   padding-top: 1em;
   padding-bottom: 0em;
+  text-align: center;
+}
+
+.connectText {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 300;
+  line-height: 1.75em;
+  margin: 0 8%;
+  padding-top: 0em;
+  padding-bottom: 0.5em;
   text-align: center;
 }
 
@@ -148,6 +188,17 @@ h5 {
   color: #0A4F52;
   padding-left: .5em;
 }
+.finalSubtitle {
+  display: flex;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 300;
+  justify-content: center;
+  line-height: 1.6em;
+  margin: 0 12%;
+  padding-bottom: .5em;
+  text-align: left;
+}
 
 .footerDiv {
   align-items: baseline;
@@ -173,6 +224,23 @@ h5 {
   height:5em;
   float: right;
   padding: 1.5em 1.5em;
+}
+
+.heroButtons {
+  display: flex;
+  justify-content: center;
+  padding-left: 0%;
+  padding-top: 1.5em;
+}
+
+.heroButton {
+  background-color: #0A4F52;
+  border-radius: .5em;
+  display: inline-block;
+  margin: 0 3em 3em;
+  padding: 1.5em 1.5em;
+  text-align: center;
+  width: 10em;
 }
 
 .hifiImg {
@@ -296,6 +364,18 @@ h5 {
   text-align: center;
 }
 
+.personaText {
+  display: flex;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 300;
+  justify-content: center;
+  line-height: 1.6em;
+  margin: 0 12%;
+  padding-bottom: .5em;
+  text-align: left;
+}
+
 .phaseLabel {
   background-color: #91A3A3;
   margin: 0em;
@@ -408,7 +488,8 @@ h5 {
 }
 
 .solutionImg {
-  margin-bottom: 3em;
+  background-color: #f2f3f3;
+  padding-bottom: 3em;
   padding-top: 2em;
   width: 100%;
 }
@@ -458,4 +539,591 @@ h5 {
   padding-bottom: 1.5em;
   padding-top: 2.5em;
   width:95%;
+}
+
+.wand {
+  align-self: center;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  padding-top: 5em;
+  width: 9%;
+}
+
+.visualImage {
+  width: 100%
+}
+
+@media only screen and (min-width: 600px) {
+
+  h1, h2 {
+    display: flex;
+    justify-content: center;
+  }
+
+  h1 {
+    color: #403F3F;
+    font-family: "Noto Serif", serif;
+    font-size: 3.5rem;
+    font-weight: 700;
+    padding-top: 2.5em;
+  }
+
+  h2 {
+    color: #403F3F;
+    font-family: "Noto Serif", serif;
+    font-size: 2.5rem;
+    font-weight: 600;
+    padding-bottom: 1.5em;
+    padding-top: 0.5em;
+  }
+
+  h3 {
+    font-family: "Noto Serif", serif;
+    font-size: 3.5rem;
+    font-weight: 600;
+  }
+
+  h4{
+    display: flex;
+    align-content: flex-start;
+    font-size: 2rem;
+    font-style: "Source Sans Pro". sans-serif;
+  }
+
+  h5 {
+    color: #403F3F;
+    display: flex;
+    justify-content: flex-start;
+    font-family: "Noto Serif", serif;
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin: auto;
+    padding-bottom: 2em;
+    padding-left: 5%;
+    padding-top: 3em;
+  }
+
+  .busyLogo {
+    width: 7%;
+  }
+
+  .buttonText {
+    color: white;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 2.0em;
+    text-decoration: none;
+    padding: 0.5em
+  }
+
+  .break {
+    display: none;
+
+  }
+
+  .busonphone {
+    padding-bottom: 4em;
+    padding-top: 4em;
+  }
+
+  .competitiveAnalysis {
+    padding-bottom: 4em;
+  }
+
+  .conclusion {
+    padding-bottom: 4em;
+  }
+
+  .conclusionBoxes {
+    display: inline-flex;
+    justify-content: space-around;
+    padding-left: 7%;
+    padding-right: 7%;
+    width:100%;
+  }
+
+  .conclusionBox1 {
+    margin: 0em;
+    padding-right: 5em;
+    width: 100%;
+  }
+
+  .conclusionBox2 {
+    margin: 0em;
+    padding-top: 0em;
+    width: 100%;
+  }
+
+  .conclusionSubtitle {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 1.6em;
+  }
+
+  .conclusionSubtitleAlign {
+    display: flex;
+    padding-bottom: .5em;
+    text-align: left;
+  }
+
+  .conclusionTitle {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 7%;
+  }
+
+  .connect {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding-bottom: 2.5rem;
+
+  }
+
+  .conceptBox {
+    display: inline-flex;
+    justify-content: space-around;
+    margin: auto;
+    padding-bottom: 4em;
+    padding-left: 5%;
+    padding-right: 7%;
+    padding-top: 2em;
+    width: 100%;
+  }
+
+  .conceptImg {
+    padding-top: 0em;
+    width: 40%;
+  }
+
+  .conceptSubtitle {
+    display: flex;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 1.6rem;
+    font-weight: 300;
+    justify-content: flex-start;
+    margin-left: 0em;
+    line-height: 1.6em;
+    text-align: left;
+
+  }
+
+
+  .connectText {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 1.75em;
+    margin: 0 12%;
+    padding-top: 0em;
+    padding-bottom: 0.5em;
+    text-align: center;
+  }
+
+  .deliverRoles {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 10em;
+    margin-right:10em;
+    padding-bottom: 4em;
+
+  }
+
+  .expandedNav {
+    margin-left: auto;
+    margin-right: 0;
+    padding-bottom: 0;
+    padding-top: 1rem;
+  }
+
+  .expandedNav--hidden {
+    display: flex;
+  }
+
+  .expandedNavLink {
+    margin-right: 4.8rem;
+
+  }
+
+  .finalBoxes {
+    display: inline-flex;
+    justify-content: flex-start;
+    margin: auto;
+    padding-bottom: 4em;
+    padding-left: 2%;
+    padding-right: 7%;
+    padding-top: 0em;
+    width: 100%;
+  }
+
+  .finalBox1 {
+    padding-left: 0%;
+  }
+
+  .finalBox2 {
+    margin-right: 5%;
+    margin-top: 0%;
+  }
+
+  .finalPrototype {
+    padding-bottom: 4em;
+  }
+
+  .finalSubtitle {
+    margin: 0 5.5%;
+
+  }
+
+  .hamburgerButton {
+    display: none;
+  }
+
+  .heroButtons {
+    display: flex;
+    justify-content: center;
+    padding-left: 0%;
+    padding-top: 1.5em;
+  }
+
+  .heroButton {
+    background-color: #0A4F52;
+    border-radius: .5em;
+    display: inline-block;
+    margin: 0 3em 3em;
+    padding: 1.5em 1.5em;
+    text-align: center;
+    width: 15em;
+  }
+
+  .heroSubtitle {
+    color: #403F3F;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 3rem;
+    font-weight: 200;
+    padding-top: .3em;
+    padding-bottom: 1em;
+    text-align: center;
+  }
+
+  .hifiImg {
+    display: flex;
+    margin-left: 15em;
+    padding-top: 0em;
+    width:25em;
+    vertical-align: top;
+  }
+
+  .lightbulb {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding-top: 0em;
+    width: 17%;
+  }
+
+  .listHeader {
+    display: flex;
+    flex-direction: column;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 1.8rem;
+    font-weight: 700;
+    justify-content: flex-start;
+    margin:0em;
+
+  }
+
+  .listItem {
+    display: block;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 1.6rem;
+    font-weight: 300;
+
+  }
+
+  .logo {
+    height: 3em;
+    margin: 0.75em 2.5em;
+    padding-bottom: 0em;
+  }
+
+  .motivations {
+    display: flex;
+    justify-content: flex-start;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 1.6rem;
+    font-weight: 600;
+    text-align: left;
+  }
+
+  .pencil {
+    padding-top: 10.5em;
+  }
+
+
+  .personaBoxes {
+    display: inline-flex;
+    justify-content: space-around;
+    margin: auto;
+    padding-bottom: 4em;
+    padding-left: 10em;
+    padding-right: 10em;
+    padding-top: 4em;
+    width: 100%;
+  }
+
+  .personBox1 {
+    padding-right: 15em;
+  }
+
+  .personaBox2 {
+    padding-left: 15em;
+    padding-top: 0em;
+  }
+
+
+  .personaDetails {
+    background-color: #E9EEEE;
+    display: flex;
+    color: #403F3F;
+    justify-content: center;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 300;
+    font-size: 1.6rem;
+    margin: auto;
+    padding-bottom: 1.5em;
+    padding-top: 0.25em;
+    text-align: center;
+  }
+
+  .personaImg {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding-bottom: 1.5em;
+    padding-top: 2.5em;
+    width: 60%;
+  }
+
+  .personalQuote {
+    display: flex;
+    justify-content: center;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 1.6rem;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 1.6em;
+    margin-left: 3em;
+    margin-right: 3em;
+    padding-top: 0.75em;
+    text-align: center;
+  }
+
+  .personaName {
+    background-color: #E9EEEE;
+    display: flex;
+    color: #403F3F;
+    justify-content: center;
+    font-family: "Noto Serif", serif;
+    font-weight: 300;
+    font-size: 2rem;
+    margin: auto;
+    padding: 1em;
+    text-align: center;
+  }
+
+  .personaText {
+    display: flex;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 1.6rem;
+    font-weight: 300;
+    justify-content: flex-start;
+    line-height: 1.6em;
+    margin: 0;
+    padding-bottom: .5em;
+    text-align: left;
+  }
+
+  .phaseLabel {
+    background-color: #91A3A3;
+    margin: 0em;
+    padding: 2em;
+  }
+
+  .phaseLabelText {
+    display: flex;
+    justify-content: center;
+    color: #403F3F;
+    font-family: "Noto Serif", serif;
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  .projectMoto {
+    display: flex;
+    color: #403F3F;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 300;
+    font-size: 2.5rem;
+    justify-content: center;
+    line-height: 2em;
+    margin: 0 20%;
+    padding: 1em;
+    text-align: center;
+  }
+
+  .projectSlogan {
+    display: flex;
+    color: #403F3F;
+    font-family: "Noto Serif", serif;
+    font-weight: 400;
+    font-size: 2.5rem;
+    font-style: italic;
+    justify-content: center;
+    line-height: 2em;
+    margin: 0 20%;
+    padding: 1em;
+    text-align: center;
+
+  }
+
+  .projectSubtitle {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 1.75em;
+    margin: 0 20%;
+    padding-top: 0em;
+    padding-bottom: 0.5em;
+    text-align: left;
+  }
+
+  .redirectButton {
+    margin: 0;
+    width: 18em;
+
+  }
+
+  .redirectButtons {
+    display: flex;
+  }
+
+  .roles {
+    display: flex;
+    margin-bottom: 3em;
+
+  }
+
+  .sectionSubtitle {
+    display: flex;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 1.6rem;
+    font-weight: 300;
+    justify-content: flex-start;
+    line-height: 1.6em;
+    margin-left: 5%;
+    margin-right: 40%;
+    padding-bottom: .5em;
+    text-align: left;
+  }
+
+  .sketchesBoxes {
+    display: inline-flex;
+    margin-left: 2%;
+    padding-bottom:4em;
+  }
+
+  .sketchesImg {
+    padding-right: 5%;
+    width: 100%;
+  }
+
+  .sketchesSubtitle {
+    margin-right: 12%
+  }
+
+  .solution {
+    display: flex;
+    padding-top: 7em;
+    flex-direction: row;
+    margin: auto;
+    padding-bottom: 3em;
+    padding-left: 10%;
+
+  }
+
+  .storiesSubtitle {
+    margin: 0 5%;
+  }
+
+  .surveyImg {
+    display: flex;
+    justify-content: center;
+    padding-top: 4em;
+    margin: auto;
+    width: 70%
+  }
+
+
+  .topNav {
+    display: flex;
+    background-color: #F2F3F3;
+    border: 1px solid: #F2F3F3;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 1.5rem;
+    margin: auto;
+    position: fixed;
+    width: 100%;
+  }
+
+  .typoImg {
+    padding-top: 0em;
+    width: 40%;
+  }
+
+  .userPersonas {
+    padding-bottom: 4em;
+  }
+
+  .userResearch {
+    padding-bottom: 4em;
+  }
+
+  .userStories {
+    padding-bottom: 4em;
+  }
+
+  .userstoriesImg {
+    width: 75%;
+
+  }
+
+  .verticalLine {
+    height: 25em;
+    margin-right: 4em;
+    margin-top: 12em;
+    width:.25em;
+    background-color: #373636;
+  }
+
+  .wand {
+    display: flex;
+    justify-content: center;
+    margin: 0em;
+    padding-top: 4em;
+    width: 30%;
+  }
+
+  .visualImage {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 75%;
+  }
+
+
+
+
 }
