@@ -776,7 +776,7 @@ h5 {
   width: 93%;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 760px) {
 
   h1, h2 {
     display: flex;
@@ -784,16 +784,11 @@ h5 {
   }
 
   h1 {
-    color: #403F3F;
-    font-family: "Noto Serif", serif;
-    font-size: 3.5rem;
-    font-weight: 700;
     padding-top: 2.5em;
+
   }
 
   h2 {
-    color: #403F3F;
-    font-family: "Noto Serif", serif;
     font-size: 2.5rem;
     font-weight: 600;
     padding-bottom: 1.5em;
@@ -801,10 +796,10 @@ h5 {
   }
 
   h3 {
-    font-family: "Noto Serif", serif;
     font-size: 3.5rem;
-    font-weight: 600;
+
   }
+
 
   h4{
     display: flex;
@@ -814,16 +809,9 @@ h5 {
   }
 
   h5 {
-    color: #403F3F;
-    display: flex;
-    justify-content: flex-start;
-    font-family: "Noto Serif", serif;
     font-size: 2.5rem;
-    font-weight: 500;
-    margin: auto;
-    padding-bottom: 2em;
     padding-left: 5%;
-    padding-top: 3em;
+
   }
 
   .alignLeft {
@@ -834,11 +822,9 @@ h5 {
   }
 
   .buttonText {
-    color: white;
-    font-family: "Source Sans Pro", sans-serif;
     font-size: 2.0em;
-    text-decoration: none;
     padding: 0.5em
+
   }
 
   .break {
@@ -847,9 +833,7 @@ h5 {
   }
 
   .cloud {
-    display: flex;
     height: 10%;
-    margin: auto;
     padding-bottom: 1.5em;
     padding-top: 1.5em;
     width: 14%
@@ -885,21 +869,13 @@ h5 {
   }
 
   .conceptlogoImg {
-    display: flex;
-    margin: auto;
     padding-top: 4em;
     width: 70%;
   }
 
   .conceptSubtitle {
-    display: flex;
-    font-family: "Source Sans Pro", sans-serif;
-    font-size: 1.6rem;
-    font-weight: 300;
     justify-content: flex-start;
     margin-left: 0em;
-    line-height: 1.6em;
-    text-align: left;
 
   }
 
@@ -928,10 +904,8 @@ h5 {
   }
 
   .conclusionSubtitle {
-    font-family: "Source Sans Pro", sans-serif;
     font-size: 1.4rem;
-    font-weight: 300;
-    line-height: 1.6em;
+
   }
 
   .conclusionSubtitleAlign {
@@ -948,22 +922,16 @@ h5 {
   }
 
   .connect {
-    display: flex;
-    justify-content: center;
     margin: auto;
     padding-bottom: 2.5rem;
 
   }
 
   .connectText {
-    font-family: "Source Sans Pro", sans-serif;
     font-size: 2rem;
     font-weight: 400;
-    line-height: 1.75em;
     margin: 0 12%;
-    padding-top: 0em;
-    padding-bottom: 0.5em;
-    text-align: center;
+
   }
 
 
@@ -1034,13 +1002,8 @@ h5 {
   }
 
   .heroButton {
-    background-color: #0A4F52;
-    border-radius: .5em;
-    display: inline-block;
-    margin: 0 3em 3em;
-    padding: 1.5em 1.5em;
-    text-align: center;
     width: 15em;
+
   }
 
   .heroSubtitle {
@@ -1095,7 +1058,6 @@ h5 {
   .listHeader {
     display: flex;
     flex-direction: column;
-    font-family: "Source Sans Pro", sans-serif;
     font-size: 1.8rem;
     font-weight: 700;
     justify-content: flex-start;
@@ -1105,7 +1067,6 @@ h5 {
 
   .listItem {
     display: block;
-    font-family: "Source Sans Pro", sans-serif;
     font-size: 1.6rem;
     font-weight: 300;
 
@@ -1172,81 +1133,40 @@ h5 {
 
   .personaDetails {
     background-color: #E9EEEE;
-    display: flex;
-    color: #403F3F;
-    justify-content: center;
-    font-family: "Source Sans Pro", sans-serif;
-    font-weight: 300;
-    font-size: 1.6rem;
-    margin: auto;
-    padding-bottom: 1.5em;
-    padding-top: 0.25em;
-    text-align: center;
+
   }
 
   .personaImg {
-    display: flex;
-    justify-content: center;
-    margin: auto;
-    padding-bottom: 1.5em;
-    padding-top: 2.5em;
     width: 60%;
+
   }
 
 
   .personalQuote {
-    display: flex;
-    justify-content: center;
-    font-family: "Source Sans Pro", sans-serif;
-    font-size: 1.6rem;
-    font-style: italic;
-    font-weight: 500;
-    line-height: 1.6em;
     margin-left: 1em;
     margin-right: 1em;
-    padding-top: 0.75em;
-    text-align: center;
+
   }
 
   .personaName {
     background-color: #E9EEEE;
     display: flex;
-    color: #403F3F;
-    justify-content: center;
-    font-family: "Noto Serif", serif;
-    font-weight: 300;
-    font-size: 2rem;
-    margin: auto;
-    padding: 1em;
-    text-align: center;
+
   }
 
   .personaText {
-    display: flex;
-    font-family: "Source Sans Pro", sans-serif;
-    font-size: 1.6rem;
-    font-weight: 300;
-    justify-content: flex-start;
-    line-height: 1.6em;
     margin: 0;
-    padding-bottom: .5em;
-    text-align: left;
+
   }
 
   .phaseLabel {
-    background-color: #91A3A3;
-    margin: 0em;
     padding: 2em;
+
   }
 
   .phaseLabelText {
-    display: flex;
-    justify-content: center;
-    color: #403F3F;
-    font-family: "Noto Serif", serif;
     font-size: 2.5rem;
-    font-weight: 600;
-    text-align: center;
+
   }
 
   .preferenceBox {
@@ -1263,12 +1183,11 @@ h5 {
   }
 
   .preferenceImg {
-    display: flex;
     justify-content: center;
-    margin:auto;
     padding-bottom: 4em;
     padding-top: 4em;
     width: 40%;
+
   }
 
   .problem {
@@ -1280,42 +1199,27 @@ h5 {
   }
 
   .projectMoto {
-    display: flex;
-    color: #403F3F;
-    font-family: "Source Sans Pro", sans-serif;
     font-weight: 300;
     font-size: 2rem;
     justify-content: center;
     line-height: 2em;
     margin: 0 20%;
-    padding: 1em;
-    text-align: center;
+
   }
 
   .projectSlogan {
-    display: flex;
-    color: #403F3F;
-    font-family: "Noto Serif", serif;
-    font-weight: 400;
     font-size: 2rem;
     font-style: italic;
     justify-content: center;
     line-height: 2em;
     margin: 0 20%;
-    padding: 1em;
-    text-align: center;
 
   }
 
   .projectSubtitle {
-    font-family: "Source Sans Pro", sans-serif;
     font-size: 2rem;
-    font-weight: 300;
     line-height: 1.4em;
-    margin: 0 12%;
-    padding-top: 0em;
-    padding-bottom: 0.5em;
-    text-align: left;
+
   }
 
 
@@ -1364,16 +1268,11 @@ h5 {
    }
 
    .sectionSubtitle {
-     display: flex;
-     font-family: "Source Sans Pro", sans-serif;
-     font-size: 1.6rem;
-     font-weight: 300;
      justify-content: flex-start;
-     line-height: 1.6em;
      margin-left: 5.5%;
      margin-right: 20%;
      padding-bottom: 1em;
-     text-align: left;
+
    }
 
    .storiesSubtitle {
@@ -1391,14 +1290,11 @@ h5 {
    }
 
    .solutionSubtitle {
-     font-family: "Source Sans Pro", sans-serif;
      font-size: 2rem;
      font-style: italic;
-     font-weight: 500;
      margin: 0 11%;
-     padding-top: 0em;
      padding-bottom: 0.5em;
-     text-align: left;
+
    }
 
    .task {
@@ -1418,13 +1314,11 @@ h5 {
 
    .topNav {
      display: flex;
-     background-color: #F2F3F3;
      border: 1px solid: #F2F3F3;
      font-family: "Source Sans Pro", sans-serif;
      font-size: 1.5rem;
      margin: auto;
-     position: fixed;
-     width: 100%;
+     
    }
 
    .typoImg {
@@ -1604,8 +1498,27 @@ h5 {
     margin-right: 50%;
   }
 
+  .sketchesImg {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 65%;
+  }
+
   .solutionSubtitle {
     margin: 0 25%;
+  }
+
+  .userFlowsImg {
+    width: 60%;
+  }
+
+  .userstoriesImg {
+    width:70%;
+  }
+
+  .wireframeExamples {
+    width: 65%;
   }
 
   .verticalLine {
@@ -1615,3 +1528,36 @@ h5 {
   }
 
  }
+
+ @media only screen and (min-width: 1824px) {
+
+   .deliverRoles {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+     margin-left: 20em;
+     margin-right: 20em;
+     padding-bottom: 4em;
+
+   }
+
+   .problem {
+     padding-bottom: 7em;
+     padding-top: 7em;
+
+   }
+
+   .projectSubtitle {
+     font-family: "Source Sans Pro", sans-serif;
+     font-size: 2rem;
+     font-weight: 300;
+     line-height: 1.4em;
+     margin: 0 25%;
+   }
+
+   .sectionSubtitle {
+      font-size: 2rem;
+   }
+
+
+}

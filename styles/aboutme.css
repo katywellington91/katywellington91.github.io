@@ -303,12 +303,11 @@ h4 {
   width: 100%;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 760px) {
 
   h2 {
     color: #403F3F;
     display: flex;
-    font-family: "Noto Serif", serif;
     font-size: 2.5rem;
     font-weight: 600;
     justify-content: center;
@@ -317,16 +316,9 @@ h4 {
   }
 
   h3 {
-    display: flex;
-    color: #403F3F;
-    font-family: "Noto Serif", serif;
-    font-weight: 600;
     font-size: 2.3rem;
     justify-content: flex-start;
-    margin: auto;
-    padding-bottom: 1em;
-    padding-top: 2em;
-    text-align: left;
+
   }
 
   h4 {
@@ -350,11 +342,9 @@ h4 {
 
 
   .buttonText {
-    color: white;
-    font-family: "Source Sans Pro", sans-serif;
     font-size: 2.0em;
-    text-decoration: none;
     padding: 0.5em
+
   }
 
   .connect {
@@ -367,14 +357,11 @@ h4 {
 
 
   .connectText {
-    font-family: "Source Sans Pro", sans-serif;
     font-size: 2rem;
     font-weight: 400;
     line-height: 1.75em;
     margin: 0 12%;
-    padding-top: 0em;
-    padding-bottom: 0.5em;
-    text-align: center;
+
   }
 
   .expandedNav {
@@ -397,21 +384,10 @@ h4 {
     display: none;
   }
 
-  .heroButtons {
-    display: flex;
-    justify-content: center;
-    padding-left: 0%;
-    padding-top: 1.5em;
-  }
 
   .heroButton {
-    background-color: #0A4F52;
-    border-radius: .5em;
-    display: inline-block;
-    margin: 0 3em 3em;
-    padding: 1.5em 1.5em;
-    text-align: center;
     width: 15em;
+
   }
 
 
