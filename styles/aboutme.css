@@ -303,13 +303,13 @@ h4 {
   width: 100%;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
 
   h2 {
     color: #403F3F;
     display: flex;
     font-family: "Noto Serif", serif;
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: 600;
     justify-content: center;
     padding-bottom: 1em;
@@ -321,7 +321,7 @@ h4 {
     color: #403F3F;
     font-family: "Noto Serif", serif;
     font-weight: 600;
-    font-size: 2.2rem;
+    font-size: 2.3rem;
     justify-content: flex-start;
     margin: auto;
     padding-bottom: 1em;
@@ -343,8 +343,8 @@ h4 {
   }
 
   .aboutMeMainText {
-    font-size: 2.0rem;
-    margin: 0% 22%;
+    font-size: 1.6rem;
+    margin: 0% 15%;
     text-align: left;
   }
 
@@ -422,7 +422,7 @@ h4 {
   }
 
   .moveOver {
-    padding-left: 7.3em;
+    padding-left: 3.5em;
     padding-top: 0.5em;
   }
 
@@ -437,18 +437,21 @@ h4 {
 
   .greyBoxes {
     display: inline-flex;
-    justify-content: space-between;
-    margin: 0 10%;
+    margin: 0 5%;
     padding-bottom: 3em;
     padding-top: 3em;
   }
 
+  .mushroomimg {
+    padding-top: 7em;
+  }
+
   .sectionImg {
-    width: 40em;
+    width: 22em;
   }
 
   .sectionGrey {
-    padding-right: 10em;
+    padding-right: 5em;
   }
 
   .sectionText {
@@ -460,18 +463,12 @@ h4 {
   }
 
   .sectionWhite {
-    padding-left: 10em;
+    padding-left: 5em;
   }
 
-  .whiteBoxes {
-    display: inline-flex;
-    flex-direction: row-reverse;
-    justify-content: space-between;
-    margin: 0 10%;
-    padding-bottom: 3em;
-    padding-top: 7em;
+  .treeimg {
+    padding-top: 15em;
   }
-
 
   .topNav {
     display: flex;
@@ -483,6 +480,105 @@ h4 {
     position: fixed;
     width: 100%;
   }
+
+
+  .whiteBoxes {
+    display: inline-flex;
+    flex-direction: row-reverse;
+    margin: 0 5%;
+    padding-bottom: 3em;
+    padding-top: 7em;
+  }
+
+  .connect h3 {
+    font-size: 3rem;
+    justify-content: center;
+  }
+
+  @media only screen and (min-width: 900px) {
+
+    .aboutMeMainText {
+      font-size: 1.6rem;
+      margin: 0% 18%;
+    }
+
+    .mushroomimg {
+      padding-top: 3em;
+    }
+
+    .sectionImg {
+      width: 30em;
+    }
+
+    .treeimg {
+      padding-top: 12em;
+    }
+
+
+}
+
+@media only screen and (min-width: 1224px) {
+
+  h2 {
+
+    font-size: 3rem;
+  }
+
+  h3 {
+
+    font-size: 2.5rem;
+
+  }
+
+  .aboutMeMainText {
+    font-size: 2rem;
+    margin: 0% 25%;
+  }
+
+  .greyBox2 {
+    padding-right: 10em;
+  }
+
+  .moveOver {
+    padding-left: 9.5em;
+  }
+
+  .moveright {
+    padding-left: 3.2em;
+  }
+
+  .mushroomimg {
+    padding-top: 2em;
+  }
+
+  .sectionImg {
+    width: 35em;
+  }
+
+  .sectionGrey {
+    padding-left: 5em;
+    padding-right: 15em;
+  }
+
+  .sectionWhite {
+    padding-right: 5em;
+    padding-left: 15em;
+  }
+
+  .textGray {
+    color: #373636;
+  }
+
+  .treeimg {
+    padding-top: 2em;
+  }
+
+
+
+  .whiteBox2 {
+    padding-left: 10em;
+  }
+
 
 
 }

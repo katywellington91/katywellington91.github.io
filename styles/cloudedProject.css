@@ -380,7 +380,7 @@ h5 {
   justify-content: center;
   margin: auto;
   padding-top: 5em;
-  width: 7%;
+  width: 6%;
 }
 
 .listHeader {
@@ -668,6 +668,7 @@ h5 {
 .subNav {
   background-color: #91A3A3;
   width: 100%;
+  position: sticky;
 }
 
 
@@ -698,6 +699,9 @@ h5 {
 }
 
 .testingImg {
+  display: flex;
+  justify-content: center;
+  margin: auto;
   width: 90%;
 }
 
@@ -709,12 +713,7 @@ h5 {
 
 .textGray {
   color: #373636;
-}
-
-.textGray {
-  color: #373636;
   text-align: center;
-
 }
 
 .topNav {
@@ -722,6 +721,7 @@ h5 {
   position: fixed;
   width: 100%;
 }
+
 
 .typoImg {
   display: flex;
@@ -776,7 +776,7 @@ h5 {
   width: 93%;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
 
   h1, h2 {
     display: flex;
@@ -829,7 +829,7 @@ h5 {
   .alignLeft {
     display: flex;
     justify-content: flex-start;
-    padding-top: 5em;
+    padding-top: 2em;
     text-align: left;
   }
 
@@ -877,7 +877,7 @@ h5 {
 
   .conceptImg {
     padding-top: 0em;
-    width: 30%;
+    width: 40%;
   }
 
   .conceptlogo {
@@ -929,7 +929,7 @@ h5 {
 
   .conclusionSubtitle {
     font-family: "Source Sans Pro", sans-serif;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     font-weight: 300;
     line-height: 1.6em;
   }
@@ -942,6 +942,7 @@ h5 {
 
   .conclusionTitle {
     display: flex;
+    font-size: 1.6rem;
     justify-content: flex-start;
     margin-left: 7%;
   }
@@ -970,8 +971,8 @@ h5 {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin-left: 10em;
-    margin-right:10em;
+    margin-left: 5em;
+    margin-right:5em;
     padding-bottom: 4em;
 
   }
@@ -1007,13 +1008,14 @@ h5 {
 
   .finalprototypeBox {
     display: inline-flex;
-    margin-left: 10%;
-    margin-right: 10%;
-    padding-top: 3em;
+    margin-left: 5%;
+    margin-right: 5\3%;
+    padding-top: 0em;
   }
 
   .finalSubtitle {
     margin-left: 0em;
+    margin-right: 0em;
   }
 
   .firstsectionImg {
@@ -1058,7 +1060,7 @@ h5 {
   }
 
   .interfaceChangeSubtitle {
-    margin-left: 20em;
+    margin-left: 5em;
     margin-right: 5%;
     padding-bottom: .5em;
     text-align: left;
@@ -1067,8 +1069,9 @@ h5 {
   .interfaceChangeTitle {
     margin: 0em;
     padding-bottom: 1em;
-    padding-left: 15.5em;
-    width: 60%
+    padding-left: 5em;
+    padding-top: 0em;
+    width: 70%
   }
 
   .interfaceImg {
@@ -1086,7 +1089,7 @@ h5 {
     justify-content: center;
     margin: 0;
     padding-top: 0em;
-    width: 17%;
+    width: 16%;
   }
 
   .listHeader {
@@ -1142,7 +1145,7 @@ h5 {
   }
 
   .pencil {
-    padding-top: 10.5em;
+    padding-top: 10em;
   }
 
 
@@ -1151,19 +1154,19 @@ h5 {
     justify-content: space-around;
     margin: auto;
     padding-bottom: 4em;
-    padding-left: 10em;
-    padding-right: 10em;
+    padding-left: 5em;
+    padding-right: 5em;
     padding-top: 4em;
     width: 100%;
   }
 
   .personBox1 {
-    padding-right: 15em;
+    padding-right: 10em;
   }
 
   .personaBox2 {
-    padding-left: 15em;
-    padding-top: 2em;
+    padding-left: 10em;
+    padding-top: 0em;
   }
 
 
@@ -1199,8 +1202,8 @@ h5 {
     font-style: italic;
     font-weight: 500;
     line-height: 1.6em;
-    margin-left: 3em;
-    margin-right: 3em;
+    margin-left: 1em;
+    margin-right: 1em;
     padding-top: 0.75em;
     text-align: center;
   }
@@ -1281,7 +1284,7 @@ h5 {
     color: #403F3F;
     font-family: "Source Sans Pro", sans-serif;
     font-weight: 300;
-    font-size: 2.5rem;
+    font-size: 2rem;
     justify-content: center;
     line-height: 2em;
     margin: 0 20%;
@@ -1294,7 +1297,7 @@ h5 {
     color: #403F3F;
     font-family: "Noto Serif", serif;
     font-weight: 400;
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-style: italic;
     justify-content: center;
     line-height: 2em;
@@ -1308,8 +1311,8 @@ h5 {
     font-family: "Source Sans Pro", sans-serif;
     font-size: 2rem;
     font-weight: 300;
-    line-height: 1.75em;
-    margin: 0 20%;
+    line-height: 1.4em;
+    margin: 0 12%;
     padding-top: 0em;
     padding-bottom: 0.5em;
     text-align: left;
@@ -1367,14 +1370,14 @@ h5 {
      font-weight: 300;
      justify-content: flex-start;
      line-height: 1.6em;
-     margin-left: 5%;
-     margin-right: 40%;
-     padding-bottom: .5em;
+     margin-left: 5.5%;
+     margin-right: 20%;
+     padding-bottom: 1em;
      text-align: left;
    }
 
    .storiesSubtitle {
-     margin: 0 5%;
+     margin: 0 5.5%;
    }
 
    .solution {
@@ -1392,7 +1395,7 @@ h5 {
      font-size: 2rem;
      font-style: italic;
      font-weight: 500;
-     margin: 0 20%;
+     margin: 0 11%;
      padding-top: 0em;
      padding-bottom: 0.5em;
      text-align: left;
@@ -1410,7 +1413,7 @@ h5 {
    }
 
    .testingImg {
-     width: 400%;
+     width: 200%;
    }
 
    .topNav {
@@ -1434,6 +1437,13 @@ h5 {
      padding-bottom: 4em;
    }
 
+   .userFlowsImg {
+     display: flex;
+     justify-content: center;
+     margin: auto;
+     width: 80%;
+   }
+
    .userResearch {
      padding-bottom: 4em;
    }
@@ -1454,7 +1464,7 @@ h5 {
    }
 
    .verticalLine {
-     height: 35em;
+     height: 45em;
      margin-right: 4em;
      margin-top: 12em;
      width:.25em;
@@ -1476,3 +1486,132 @@ h5 {
 
 
 }
+
+@media only screen and (min-width: 900px) {
+
+  .interfaceChangeTitle {
+    padding-left: 1em;
+    padding-top: 1em;
+  }
+
+  .conclusionSubtitle {
+    font-size: 1.5rem;
+  }
+
+  .conclusionTitle {
+    font-size: 2rem;
+  }
+
+  .verticalLine {
+    height: 55em;
+    margin-top: 8em;
+
+  }
+
+}
+
+@media only screen and (min-width: 1224px) {
+  h1 {
+    font-size: 3.5rem;
+  }
+
+  .alignLeft {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 2em;
+    padding-top: 5em;
+    text-align: left;
+  }
+
+  .conceptlogoImg {
+    padding-bottom: 3em;
+    width: 60%;
+  }
+
+  .conceptImg {
+    width: 30%;
+  }
+
+  .finalprototypeBox {
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 3em;
+  }
+
+  .finalSubtitle {
+    margin-left: 3em;
+    margin-right: 5em;
+  }
+
+  .firstsectionImg {
+    display: none;
+  }
+
+  .interfaceChangeSubtitle {
+    margin-left: 15em;
+  }
+
+  .interfaceChangeTitle {
+    padding-left: 6em;
+    padding-top: 3em;
+  }
+
+
+  .personaBoxes {
+    padding-left: 10em;
+    padding-right: 10em;
+  }
+
+  .personBox1 {
+    padding-right: 20em;
+  }
+
+  .personaBox2 {
+    padding-left: 20em;
+  }
+
+  .personalQuote {
+    margin-left: 4em;
+    margin-right: 4em;
+    text-align: left;
+  }
+
+
+  .projectMoto {
+    font-size: 2.5rem;
+    justify-content: center;
+    margin: 0 23%;
+    padding: 1em;
+  }
+
+  .projectSlogan {
+    font-size: 2.5rem;
+    font-style: italic;
+    margin: 0 27%;
+    padding: 1em;
+
+  }
+
+  .projectSubtitle {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 2rem;
+    margin: 0 25%;
+
+  }
+
+  .sectionSubtitle {
+    margin-left: 5%;
+    margin-right: 50%;
+  }
+
+  .solutionSubtitle {
+    margin: 0 25%;
+  }
+
+  .verticalLine {
+    height: 35em;
+    margin-top: 8em;
+
+  }
+
+ }
