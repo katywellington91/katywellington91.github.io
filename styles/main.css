@@ -630,27 +630,33 @@ h4 {
     padding-top: 4em;
   }
 
-  .testimonialsBoxMike2 {
-    padding-right: 5%;
+
+
+  .testimonialKate {
+    margin-left: 4em;
+    width: 35%;
   }
 
+  .testimonialMike {
+    margin-right: 4em;
+    width: 35%;
+  }
 
   .testimonialsPeople {
     display: inline-flex;
-    flex-direction: row;
-    margin: 0 2%;
-    padding-left: 2%;
-    padding-top: 4%;
+    justify-content: center;
+    margin: auto;
+    padding-top: 1em;
+    width: 100%
   }
 
 
   .testimonialPic {
-    justify-content: flex-start;
+    justify-content: center;
+    margin: auto;
     padding-bottom: 3rem;
-    padding-left: 5em;
-    padding-right: 3em;
     padding-top: 4em;
-    width: 16em;
+    width: 6em;
   }
 
   .testimonialSubtitle {
@@ -748,6 +754,7 @@ h4 {
   .aboutmeBoxes {
     justify-content: space-between;
     margin: auto;
+    padding-top: 2em;
 
   }
 
@@ -755,7 +762,7 @@ h4 {
     margin-left: 0%;
     padding-left: 12%;
     padding-right: 0em;
-    padding-top: 3em;
+    padding-top: 4em;
     width: 55em;
   }
 
@@ -802,9 +809,6 @@ h4 {
 
   }
 
-  .projectGreenBox1 {
-
-  }
 
   .projectGreenBox2 {
     justify-content: flex-start;
@@ -863,11 +867,35 @@ h4 {
 
   }
 
+  .testimonials {
+    padding-bottom: 4em;
+  }
+
+  .testimonialKate {
+    margin-left: 7em;
+    width: 30%;
+  }
+
+  .testimonialMike {
+    margin-right: 7em;
+    width: 30%;
+  }
+
   .testimonialsPeople {
-    display: flex;
+    display: inline-flex;
     justify-content: center;
     margin: auto;
-    width: 60%
+    padding-top: 2em;
+    width: 100%
+  }
+
+  .testimonialPic {
+    padding-top: 1.5em;
+  }
+
+
+  .textAbout {
+    font-size: 1.6rem;
   }
 
   .textGreen {
@@ -881,6 +909,7 @@ h4 {
   .topNav {
     z-index: 11;
   }
+
 
 
 }
