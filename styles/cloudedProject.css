@@ -29,6 +29,7 @@ h1 {
   font-size: 3.5rem;
   font-weight: 700;
   margin-bottom: 0.5em;
+  margin-top: 0em;
   padding-top: 1.5em;
 }
 
@@ -202,10 +203,17 @@ h5 {
 }
 
 .expandedSubNav{
+  background-color: white;
+  color: #91A3A3;
+  border-style: solid;
+  border-width: thin;
   font-family: "Source Sans Pro", sans-serif;
   padding-bottom: 2em;
-  padding-top: 5em;
+  padding-top: 2em;
+  position: absolute;
   text-align: center;
+  width: 100%;
+
 }
 
 .expandedSubNav--hidden {
@@ -215,6 +223,7 @@ h5 {
 .expandedsubNavLink{
   color: #403F3F;
   font-size: 1.5em;
+  line-height: 1.4em;
   text-decoration: none;
 }
 
@@ -667,16 +676,21 @@ h5 {
 
 .subNav {
   background-color: #91A3A3;
-  width: 100%;
+  padding-bottom: 0.75em;
+  padding-top: 6em;
   position: sticky;
+  width: 100%;
+
 }
 
 
 .subNavText {
   color:#403F3F;
+  display: flex;
   font-family: "Source Sans Pro", sans-serif;
   font-size: 1.6rem;
   font-weight: 400;
+  justify-content: center;
   padding-bottom: 0.5em;
   padding-top: 0.5em;
   text-decoration: none;
@@ -720,6 +734,7 @@ h5 {
   background-color: #F2F3F3;
   position: fixed;
   width: 100%;
+  z-index: 10;
 }
 
 
@@ -784,7 +799,7 @@ h5 {
   }
 
   h1 {
-    padding-top: 2.5em;
+    padding-top: 1.5em;
 
   }
 
@@ -1305,6 +1320,15 @@ h5 {
 
    }
 
+   .subNav {
+     background-color: #91A3A3;
+     padding-bottom: 0.75em;
+     padding-top: 8em;
+     position: sticky;
+     width: 100%;
+
+   }
+
    .task {
      font-weight: 500;
      margin: 0 5%;
@@ -1415,6 +1439,7 @@ h5 {
 @media only screen and (min-width: 1224px) {
   h1 {
     font-size: 3.5rem;
+    padding-top: 5em;
   }
 
   .alignLeft {
@@ -1437,6 +1462,27 @@ h5 {
   .conceptSubtitle {
     width: 50%;
   }
+
+  .expandedSubNav {
+    display: flex;
+    background-color: #91A3A3;
+    justify-content: space-around;
+    margin-top: 1em;
+    padding-bottom: 0.5em;
+    padding-top: 2rem;
+  }
+
+  .subNavText {
+    display: none;
+  }
+
+
+  .expandedSubNav--hidden {
+    display: flex;
+    margin-top: 5em;
+    position: fixed;
+  }
+
 
   .finalprototypeBox {
     margin-left: 5%;
@@ -1526,6 +1572,22 @@ h5 {
     margin-left: 4.75%;
   }
 
+  .subNav {
+    display: none;
+  }
+
+  .subNavText {
+    color:#403F3F;
+    display: flex;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 1.6rem;
+    font-weight: 400;
+    justify-content: center;
+    padding-bottom: 0em;
+    padding-top: 0em;
+    text-decoration: none;
+  }
+
   .userFlowsImg {
     width: 60%;
   }
@@ -1583,6 +1645,7 @@ h5 {
    .sectionSubtitle {
       font-size: 2rem;
    }
+
 
 
 }

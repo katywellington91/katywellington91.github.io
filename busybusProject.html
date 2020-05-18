@@ -36,14 +36,18 @@
       </nav>
     </div>
 
-    <div class="subcontainer">
-      <nav class="busyBusNav">
-        <a href="#discovery">Discovery and Research</a>
-        <a href="#infoArch">Information Architecture</a>
-        <a href="#visualDesign">Visual Design</a>
-        <a href="#prototype">Final Prototype & Development</a>
-        <a href="#conclusion">Conclusion</a>
-      </nav>
+    <div class="container">
+      <div class="subNav" id="subnav-box">
+        <span class="subNavText">Jump To Section ▽</span>
+      </div>
+
+      <div class="expandedSubNav expandedSubNav--hidden" id="expanded-SubNav">
+        <p><a class="expandedsubNavLink" href="#discovery">Discovery and Research</a></p>
+        <p><a class="expandedsubNavLink" href="#infoArch">Information Architecture</a></p>
+        <p><a class="expandedsubNavLink" href="#visualDesign">Visual Design</a></p>
+        <p><a class="expandedsubNavLink" href="#development">Final Prototype</a></p>
+        <p><a class="expandedsubNavLink" href="#conclusion">Conclusion</a></p>
+      </div>
     </div>
 
     <!-- main picture and description section -->
@@ -145,7 +149,7 @@
 
 
     <section class="phaseLabel">
-      <span class="phaseLabelText">Discovery Phase</span>
+      <span class="phaseLabelText" id="discovery">Discovery Phase</span>
     </section>
 
     <!-- user research-->
@@ -287,7 +291,7 @@
     </section>
 
     <section class="phaseLabel">
-      <span class="phaseLabelText">Information Architecture Phase</span>
+      <span class="phaseLabelText" id="infoArch">Information Architecture Phase</span>
     </section>
 
     <!--User stories-->
@@ -333,7 +337,7 @@
     </section>
 
     <section class="phaseLabel">
-      <span class="phaseLabelText">Visual Design Phase</span>
+      <span class="phaseLabelText" id="visualDesign">Visual Design Phase</span>
     </section>
 
     <!-- concept section -->
@@ -385,7 +389,7 @@
       </section>
 
       <section class="phaseLabel">
-        <span class="phaseLabelText">Development Phase</span>
+        <span class="phaseLabelText" id="development">Development Phase</span>
       </section>
 
       <!-- Final Prototype-->
@@ -437,7 +441,7 @@
       </section>
 
       <section class="phaseLabel">
-        <span class="phaseLabelText">Conclusion</span>
+        <span class="phaseLabelText" id="conclusion">Conclusion</span>
       </section>
 
       <!--conclusion section-->
@@ -514,6 +518,14 @@
       let hamburger = document.getElementById('nav-hamburger');
       hamburger.addEventListener('click', function() {
         expandedNav.classList.toggle('expandedNav--hidden')
+      })
+    </script>
+
+    <script>
+      let expandedSubNav = document.getElementById('expanded-SubNav');
+      let box = document.getElementById('subnav-box');
+      box.addEventListener('click', function() {
+        expandedSubNav.classList.toggle('expandedSubNav--hidden')
       })
     </script>
 
