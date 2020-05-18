@@ -432,7 +432,7 @@ h4 {
     display: flex;
     justify-content: center;
     margin: auto;
-    padding-bottom: 2.5rem;
+    padding-bottom: 0.5rem;
     padding-top: 4em;
 
   }
@@ -440,7 +440,7 @@ h4 {
 
   .connectText {
     font-size: 2rem;
-    font-weight: 400;
+    font-weight: 300;
     line-height: 1.75em;
     margin: 0 12%;
   }
@@ -765,13 +765,13 @@ h4 {
   }
 
   .caseStudyBoxes {
-    align-content: center;
     background-color: #ffff;
     display: inline-flex;
-    justify-content: center;
-    margin:auto;
-    padding-bottom: 10em;
-    padding-top: 4em;
+    /*justify-content: center;*/
+    margin: auto;
+    padding-bottom: 12em;
+    padding-top: 5em;
+    overflow: hidden;
     width: 100%;
   }
 
@@ -790,27 +790,28 @@ h4 {
   .projectGreen {
     border-radius: 0.5em;
     height: 55em;
-    margin: 5em 10em;
+    margin:auto;
+    margin-right: -10em;
+    width: 35%;
   }
 
   .projectGreenBoxes {
     display: flex;
     flex-direction: column-reverse;
+    padding-left: 10%;
 
   }
 
   .projectGreenBox1 {
-    align-items: center;
-    margin-left: 2%;
+
   }
 
   .projectGreenBox2 {
     justify-content: flex-start;
-    padding-left: 8%;
   }
 
   .projectKeywords {
-    width: 60%;
+    width: 55%;
 
   }
 
@@ -818,9 +819,8 @@ h4 {
     border-color: #91A3A3;
     border-radius: 0.5em;
     height: 55em;
-    margin-left: 10em;
-    margin-right:9em;
-    margin-top: 5em;
+    margin: auto;
+    width: 35%;
   }
 
   .projectWhiteBoxes {
@@ -836,8 +836,6 @@ h4 {
 
   .projsnapGreen {
     margin-bottom: 0em;
-    padding-right: 0em;
-    margin-left: 0em;
     padding-top: 3em;
     position: absolute;
     width: 40em;
@@ -847,26 +845,22 @@ h4 {
 
   .projsnapWhite {
     justify-content: flex-start;
-    margin-left: 0em;
-    margin-right: 0em;
-    padding-left: 5em;
-    padding-right: 0em;
     padding-top: 0em;
     position: absolute;
-    width: 42em;
+    width: 41em;
     z-index: 10;
 
   }
 
   .projectSnapshot {
-    margin:0;
-    padding-left: 2%;
+
   }
 
   .projectWhite {
     border: #91A3A3;
     border-style: solid;
     border-width: thin;
+
   }
 
   .testimonialsPeople {
@@ -877,6 +871,10 @@ h4 {
   }
 
   .textGreen {
+    width: 75%;
+  }
+
+  .textWhite {
     width: 70%;
   }
 
