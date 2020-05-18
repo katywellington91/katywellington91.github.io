@@ -605,9 +605,10 @@ h5 {
   h5 {
     font-size: 2.5rem;
     font-weight: 500;
+    justify-content: flex-start;
     margin: auto;
     padding-bottom: 2em;
-    padding-left: 5%;
+    padding-left: 5.5%;
     padding-top: 3em;
 
   }
@@ -721,7 +722,7 @@ h5 {
   .connectText {
     font-family: "Source Sans Pro", sans-serif;
     font-size: 2rem;
-    font-weight: 400;
+    font-weight: 300;
     line-height: 1.75em;
     margin: 0 12%;
     padding-top: 0em;
@@ -1067,6 +1068,9 @@ h5 {
 
 @media only screen and (min-width: 1224px) {
 
+  h5 {
+    padding-left: 5%;
+  }
 
   .finalSubtitle {
     margin-left: 4.25%;
@@ -1172,6 +1176,12 @@ h5 {
     width:.25em;
     background-color: #373636;
   }
+
+  .visualImage {
+    padding-top: 3em;
+    width: 50%;
+  }
+
 
 }
 
