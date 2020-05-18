@@ -809,8 +809,11 @@ h5 {
   }
 
   h5 {
+    display: flex;
+    justify-content: flex-start;
     font-size: 2.5rem;
     padding-left: 5%;
+    text-align: left;
 
   }
 
@@ -1072,6 +1075,11 @@ h5 {
 
   }
 
+  .joseph {
+    padding-bottom: 2.75em;
+
+  }
+
   .logo {
     height: 3em;
     margin: 0.75em 2.5em;
@@ -1318,7 +1326,7 @@ h5 {
      font-family: "Source Sans Pro", sans-serif;
      font-size: 1.5rem;
      margin: auto;
-     
+
    }
 
    .typoImg {
@@ -1426,6 +1434,10 @@ h5 {
     width: 30%;
   }
 
+  .conceptSubtitle {
+    width: 50%;
+  }
+
   .finalprototypeBox {
     margin-left: 5%;
     margin-right: 5%;
@@ -1449,6 +1461,7 @@ h5 {
     padding-left: 6em;
     padding-top: 3em;
   }
+
 
 
   .personaBoxes {
@@ -1509,6 +1522,10 @@ h5 {
     margin: 0 25%;
   }
 
+  .storiesSubtitle {
+    margin-left: 4.75%;
+  }
+
   .userFlowsImg {
     width: 60%;
   }
@@ -1539,6 +1556,14 @@ h5 {
      margin-right: 20em;
      padding-bottom: 4em;
 
+   }
+
+   .interfaceChangeTitle {
+     padding-left: 10em;
+   }
+
+   .interfaceChangeSubtitle {
+     padding-left: 7em;
    }
 
    .problem {
