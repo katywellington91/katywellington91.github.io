@@ -559,11 +559,12 @@ h4 {
 
 
   .projectKeyword {
-    display: flex;
-    margin: 0 2%;
-    padding-left: 0em;
-    padding-right: 0em;
-    text-align: center;
+  margin-right: 1em;
+  padding-bottom: 0.5em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  padding-top: 0.5em;
+
 
   }
 
@@ -574,14 +575,13 @@ h4 {
     flex-direction: row;
     font-family: "Source Sans Pro", sans-serif;
     font-size: 1.2rem;
-    font-weight: 500;
-    justify-content: center;
+    font-weight: 600;
+    justify-content: flex-start;
     list-style: none;
     margin-bottom: 1em;
     margin-right: 0em;
     padding: 0.5em 0em;
     text-align: center;
-    width: 88%;
 
   }
 
@@ -744,8 +744,11 @@ h4 {
     padding-top: 20%;
   }
 
-  .projectKeywords {
-    width: 66%;
+  .projectKeyword {
+    padding-left: 0em;
+    padding-right: 0em;
+    width: 8em;
+
 
   }
 
@@ -828,10 +831,6 @@ h4 {
     justify-content: flex-start;
   }
 
-  .projectKeywords {
-    width: 55%;
-
-  }
 
   .projectWhite {
     border-color: #91A3A3;
@@ -973,9 +972,6 @@ h4 {
     width: 45em;
   }
 
-  .projectKeywords {
-    width: 50%;
-  }
 
   .projectSubtitle {
     font-size: 2rem;
