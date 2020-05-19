@@ -162,6 +162,11 @@ h5 {
   text-align: center;
 }
 
+.contactText {
+  border-bottom: #403F3F;
+  border-style: solid;
+  color: #403F3F;
+}
 
 .expandedNav {
   font-family: "Source Sans Pro", sans-serif;

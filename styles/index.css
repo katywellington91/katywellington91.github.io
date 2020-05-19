@@ -83,6 +83,11 @@ h4 {
   font-family: "Source Sans Pro", sans-serif;
 }
 
+.contactText {
+  border-bottom: #403F3F;
+  border-style: solid;
+  color: #403F3F;
+}
 
 .connectText {
   font-family: "Source Sans Pro", sans-serif;
@@ -107,13 +112,16 @@ h4 {
 }
 
 .expandedNavLink {
-  color: #403F3F;
   font-size: 1.5em;
   text-decoration: none;
 }
 
 .expandedNavLink:hover {
   color: #91A3A3;
+}
+
+.expandedNavText {
+  color: #403F3F;
 }
 
 .fa {
@@ -165,10 +173,15 @@ h4 {
   border-radius: .5em;
   display: inline-block;
   margin: 0 3em 3em;
-  padding: 1em 1em;
+  padding: 1.5em 1em;
   text-align: center;
   width: 8em;
 }
+
+.heroButtonGhost {
+  background-color: #91A3A3;
+}
+
 
 .heroButton:hover {
   background-color: #053032;
