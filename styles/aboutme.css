@@ -124,6 +124,13 @@ h4 {
   padding-top: 0.5em;
 }
 
+.contactText {
+  border-bottom: #403F3F;
+  border-style: solid;
+  border-width:  0em 0em .10em 0em ;
+  color: #403F3F;
+}
+
 .expandedNav {
   font-family: "Source Sans Pro", sans-serif;
   padding-bottom: 2em;

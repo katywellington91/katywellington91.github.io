@@ -86,6 +86,7 @@ h4 {
 .contactText {
   border-bottom: #403F3F;
   border-style: solid;
+  border-width:  0em 0em .10em 0em ;
   color: #403F3F;
 }
 
@@ -931,7 +932,7 @@ h4 {
 
   .aboutmeBox2 {
     padding-right: 40em;
-    width: 50%;
+    width: 70%;
   }
 
   .aboutmeBoxes {
@@ -951,7 +952,7 @@ h4 {
   }
 
   .caseStudyBoxes{
-    padding-bottom: 15em;
+    padding-bottom: 25em;
   }
 
   .caseStudyBoxes h3 {
