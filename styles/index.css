@@ -793,7 +793,7 @@ h4 {
     display: inline-flex;
     /*justify-content: center;*/
     margin: auto;
-    padding-bottom: 12em;
+    padding-bottom: 13em;
     padding-top: 5em;
     overflow: hidden;
     width: 100%;
@@ -912,7 +912,7 @@ h4 {
   }
 
   .textGreen {
-    width: 75%;
+    width: 85%;
   }
 
   .textWhite {
