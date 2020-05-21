@@ -220,11 +220,10 @@ h4 {
 
 .processPic {
   display: block;
-  margin-left: auto;
-  margin-right: 22%;
-  padding-top: 1em;
+  margin: auto;
+  padding-top: 1.5em;
   padding-bottom: 2em;
-  width: 100%;
+  width: 70%;
 }
 
 .processTopic {
@@ -311,11 +310,10 @@ h4 {
 .testimonialPic {
   display: flex;
   justify-content: center;
-  margin-left: auto;
-  margin-right: 34%;
+  margin: auto;
   padding-top: 1em;
   padding-bottom: 3.5em;
-  width: 30%;
+  width: 15%;
 }
 
 .testimonialSubtitle {
@@ -886,12 +884,12 @@ h4 {
 
   .testimonialKate {
     margin-left: 7em;
-    width: 30%;
+    width: 35%;
   }
 
   .testimonialMike {
     margin-right: 7em;
-    width: 30%;
+    width: 35%;
   }
 
   .testimonialsPeople {
@@ -904,6 +902,10 @@ h4 {
 
   .testimonialPic {
     padding-top: 1.5em;
+  }
+
+  .testimonialSubtitle {
+    font-size: 1.6em;
   }
 
 
