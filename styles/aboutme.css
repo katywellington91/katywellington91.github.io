@@ -96,18 +96,7 @@ h4 {
 }
 
 
-
-.phaseLabel {
-  background-color: #91A3A3;
-  padding: 1.5em;
-
-}
-
 .phaseLabelText {
-  display: flex;
-  justify-content: center;
-  color: #403F3F;
-  font-family: "Noto Serif", serif;
   font-size: 1.4rem;
   font-style: italic;
   font-weight: 600;

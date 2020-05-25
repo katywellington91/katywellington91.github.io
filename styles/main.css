@@ -31,6 +31,25 @@ h1, h2, h3 {
 
 }
 
+.conclusion {
+  padding-bottom: 3em;
+}
+
+.conclusionSubtitle {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 300;
+  line-height: 1.6em;
+}
+
+.conclusionSubtitleAlign {
+  display: flex;
+  justify-content: center;
+  margin: 0 12%;
+  padding-bottom: .5em;
+  text-align: left;
+}
+
 .connectText {
   font-family: "Source Sans Pro", sans-serif;
   font-size: 1.6rem;
@@ -73,6 +92,31 @@ h1, h2, h3 {
 
 .expandedNavText {
   color: #403F3F;
+}
+
+.expandedSubNav{
+  background-color: white;
+  color: #91A3A3;
+  border-style: solid;
+  border-width: thin;
+  font-family: "Source Sans Pro", sans-serif;
+  padding-bottom: 2em;
+  padding-top: 2em;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+
+}
+
+.expandedSubNav--hidden {
+  display: none;
+}
+
+.expandedsubNavLink{
+  color: #403F3F;
+  font-size: 1.5em;
+  line-height: 1.4em;
+  text-decoration: none;
 }
 
 .fa {
@@ -125,6 +169,36 @@ h1, h2, h3 {
   background-color: #053032;
 }
 
+.lightbulb {
+  align-self: center;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  padding-top: 5em;
+  width: 6%;
+}
+
+.listHeader {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin: auto;
+  padding-bottom: 0.5em;
+  padding-top: 1.5em;
+
+
+}
+
+.listItem {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 300;
+  margin: auto;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+
+}
+
 .logo {
   height: 3.5em;
   float: left;
@@ -138,6 +212,93 @@ h1, h2, h3 {
   list-style: none;
   margin: 0 5%;
 }
+
+.motivations {
+  display: flex;
+  justify-content: center;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 600;
+  text-align: left;
+}
+
+
+.personaDetails {
+  display: flex;
+  color: #403F3F;
+  justify-content: center;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 300;
+  font-size: 1.6rem;
+  margin: auto;
+  padding-bottom: 1.5em;
+  padding-top: 0.25em;
+  text-align: center;
+}
+
+.personaImg {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  padding-bottom: 1.5em;
+  padding-top: 2.5em;
+  width: 75%;
+}
+
+.personalQuote {
+  display: flex;
+  justify-content: center;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1.6rem;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 1.6em;
+  margin-left: 3em;
+  margin-right: 3em;
+  padding-top: 0.75em;
+  text-align: center;
+}
+
+.personaName {
+  display: flex;
+  color: #403F3F;
+  justify-content: center;
+  font-family: "Noto Serif", serif;
+  font-weight: 300;
+  font-size: 2rem;
+  margin: auto;
+  padding: 1em;
+  text-align: center;
+}
+
+.personaText {
+  display: flex;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 300;
+  justify-content: center;
+  line-height: 1.6em;
+  margin: 0 12%;
+  padding-bottom: .5em;
+  text-align: left;
+}
+
+.phaseLabel {
+  background-color: #91A3A3;
+  margin: 0em;
+  padding: 1.5em;
+}
+
+.phaseLabelText {
+  display: flex;
+  justify-content: center;
+  color: #403F3F;
+  font-family: "Noto Serif", serif;
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: center;
+}
+
 
 .redirectButton {
   background-color: #0A4F52;
@@ -162,6 +323,47 @@ h1, h2, h3 {
   background-color: #053032;
 }
 
+.roles {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.sectionSubtitle {
+  display: flex;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 300;
+  justify-content: center;
+  line-height: 1.6em;
+  margin: 0 12%;
+  padding-bottom: .5em;
+  text-align: left;
+}
+
+.subNav {
+  background-color: #91A3A3;
+  padding-bottom: 0.75em;
+  padding-top: 6em;
+  position: sticky;
+  width: 100%;
+
+}
+
+
+.subNavText {
+  color:#403F3F;
+  display: flex;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  justify-content: center;
+  padding-bottom: 0.5em;
+  padding-top: 0.5em;
+  text-decoration: none;
+}
+
 .textGreen {
   color: #91A3A3;
 }
@@ -179,4 +381,13 @@ h1, h2, h3 {
   background-color: #F2F3F3;
   position: fixed;
   width: 100%;
+}
+
+.wand {
+  align-self: center;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  padding-top: 5em;
+  width: 9%;
 }
