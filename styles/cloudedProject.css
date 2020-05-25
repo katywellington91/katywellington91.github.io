@@ -1,27 +1,10 @@
-* {
-  box-sizing: border-box;
-}
 
-html {
-  font-size: 10px;
-  scroll-behavior: smooth;
-
-  /* navigation bar */
-
-}
-
-body {
-  margin: 0;
-}
 
 footer {
   background-color: #ffff;
 }
 
-h1, h2, h3 {
-  display: flex;
-  justify-content: center;
-}
+
 
 h1 {
   color: #403F3F;
@@ -58,6 +41,7 @@ h4 {
   font-size: 1.6rem;
   font-weight: 600;
   padding-top: 0.5em;
+
 }
 
 h5 {
@@ -81,12 +65,6 @@ h5 {
   width: 20%;
 }
 
-.buttonText {
-  color: white;
-  font-family: "Source Sans Pro", sans-serif;
-  font-size: 1.5em;
-  text-decoration: none;
-}
 
 .cloud {
   display: flex;
@@ -169,45 +147,6 @@ h5 {
   text-align: center;
 }
 
-.connectText {
-  font-family: "Source Sans Pro", sans-serif;
-  font-size: 1.6rem;
-  font-weight: 300;
-  line-height: 1.75em;
-  margin: 0 8%;
-  padding-top: 0em;
-  padding-bottom: 0.5em;
-  text-align: center;
-}
-
-.contactText {
-  border-bottom: #403F3F;
-  border-style: solid;
-  border-width:  0em 0em .10em 0em ;
-  color: #403F3F;
-
-}
-
-.expandedNav {
-  font-family: "Source Sans Pro", sans-serif;
-  padding-bottom: 2em;
-  padding-top: 5em;
-  text-align: center;
-}
-
-.expandedNav--hidden {
-  display: none;
-}
-
-.expandedNavLink {
-  color: #403F3F;
-  font-size: 1.5em;
-  text-decoration: none;
-}
-
-.expandedNavLink:hover {
-  color: #91A3A3;
-}
 
 .expandedSubNav{
   background-color: white;
@@ -234,10 +173,7 @@ h5 {
   text-decoration: none;
 }
 
-.fa {
-  color: #0A4F52;
-  padding-left: .5em;
-}
+
 
 .feedbackD2 {
   display: flex;
@@ -301,44 +237,6 @@ h5 {
   justify-content:space-between;
 }
 
-.footerSubtitle {
-  font-family: "Source Sans Pro", sans-serif;
-  font-size: 1.5rem;
-  font-weight: 200;
-  line-height: 1.75em;
-  margin: 0 5%;
-  padding-top: 1.5em;
-  padding-bottom: 1em;
-  text-align: left;
-
-}
-
-.hamburgerButton {
-  height:5em;
-  float: right;
-  padding: 1.5em 1.5em;
-}
-
-.heroButtons {
-  display: flex;
-  justify-content: center;
-  padding-left: 0%;
-  padding-top: 1.5em;
-}
-
-.heroButton {
-  background-color: #0A4F52;
-  border-radius: .5em;
-  display: inline-block;
-  margin: 0 3em 3em;
-  padding: 1.5em 1.5em;
-  text-align: center;
-  width: 10em;
-}
-
-.heroButton:hover {
-  background-color: #053032;
-}
 
 .HifiMockup {
   padding-bottom: 5em;
@@ -420,19 +318,6 @@ h5 {
 
 }
 
-.logo {
-  height: 3.5em;
-  float: left;
-  margin: 1em 1.5em;
-
-}
-
-.mediaList{
-  display: flex;
-  flex-direction: row;
-  list-style: none;
-  margin: 0 5%;
-}
 
 .mockup {
   padding-top: 2em;
@@ -585,29 +470,6 @@ h5 {
 }
 
 
-.redirectButton {
-  background-color: #0A4F52;
-  border-radius: .5em;
-  display: inline-block;
-  margin: 0 3em 3em;
-  padding-bottom: 1.5em;
-  padding-top: 1.5em;
-  text-align: center;
-  width: 12em;
-}
-
-.redirectButtons {
-  display: flex;
-  justify-content: center;
-  padding-bottom: 1em;
-  padding-left: 0;
-  padding-top: 1.5em;
-}
-
-.redirectButton:hover {
-  background-color: #053032;
-}
-
 
 .roles {
   display: flex;
@@ -733,15 +595,13 @@ h5 {
 }
 
 .textGray {
-  color: #373636;
   text-align: center;
+
 }
 
 .topNav {
-  background-color: #F2F3F3;
-  position: fixed;
-  width: 100%;
   z-index: 10;
+
 }
 
 
