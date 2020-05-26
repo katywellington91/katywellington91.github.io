@@ -1,6 +1,4 @@
 
-
-
 h1 {
   color: #403F3F;
   font-family: "Noto Serif", serif;
@@ -53,8 +51,6 @@ h4 {
   width: 100%;
 }
 
-
-
 .hero {
   background-image: url("../images/heroimage.png");
   display: flex;
@@ -63,14 +59,9 @@ h4 {
   width:100%;
 }
 
-
-
 .heroButtonGhost {
   background-color: #91A3A3;
 }
-
-
-
 
 .heroSubtitle {
   color: #403F3F;
@@ -82,8 +73,6 @@ h4 {
   padding-top: .5em;
   text-align: center;
 }
-
-
 
 .myProcess p {
   font-size: 1.4rem;
@@ -122,7 +111,6 @@ h4 {
   width: 100%;
 }
 
-
 .projectSnapshot {
   display: block;
   margin-left: auto;
@@ -145,8 +133,6 @@ h4 {
 .projectWhite {
   background-color: #fff;
 }
-
-
 
 .testimonials {
   background-color: #F2F3F3;
@@ -198,8 +184,6 @@ h4 {
 }
 
 
-
-
 @media only screen and (min-width: 760px) {
 
 
@@ -236,7 +220,6 @@ h4 {
   .aboutme {
     padding-bottom: 3em;
   }
-
 
   .aboutmeBoxes {
     display: inline-flex;
@@ -315,7 +298,6 @@ h4 {
   .hamburgerButton {
     display: none;
   }
-
 
 
   .heroButton {
@@ -397,9 +379,7 @@ h4 {
   padding-right: 0.5em;
   padding-top: 0.5em;
 
-
   }
-
 
   .projectKeywords {
     border-radius: 0px;
@@ -476,8 +456,6 @@ h4 {
     padding-top: 4em;
   }
 
-
-
   .testimonialKate {
     margin-left: 4em;
     width: 35%;
@@ -541,8 +519,6 @@ h4 {
     width: 86%;
   }
 
-
-
   .topNav {
     display: flex;
     border: 1px solid: #F2F3F3;
@@ -580,7 +556,6 @@ h4 {
     padding-left: 0em;
     padding-right: 0em;
     width: 8em;
-
 
   }
 
@@ -658,11 +633,9 @@ h4 {
 
   }
 
-
   .projectGreenBox2 {
     justify-content: flex-start;
   }
-
 
   .projectWhite {
     border-color: #91A3A3;
@@ -698,10 +671,6 @@ h4 {
     position: absolute;
     width: 41em;
     z-index: 10;
-
-  }
-
-  .projectSnapshot {
 
   }
 
@@ -760,7 +729,6 @@ h4 {
   }
 
 
-
 }
 
 @media only screen and (min-width: 1824px) {
@@ -807,7 +775,6 @@ h4 {
   .projsnapWhite {
     width: 45em;
   }
-
 
   .projectSubtitle {
     font-size: 2rem;

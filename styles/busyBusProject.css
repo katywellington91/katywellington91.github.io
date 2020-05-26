@@ -195,8 +195,6 @@ h5 {
   text-align: left;
 }
 
-
-
 .secSub {
   display: flex;
   font-family: "Source Sans Pro", sans-serif;
@@ -449,7 +447,6 @@ h5 {
     margin-right:5em;
     padding-bottom: 4em;
 
-
   }
 
   .expandedNav {
@@ -562,9 +559,9 @@ h5 {
   font-size: 18px;
 }
 
-#myBtn:hover {
-  background-color: #0A4F52;
-}
+  #myBtn:hover {
+    background-color: #0A4F52;
+  }
 
   .pencil {
     padding-top: 10.5em;
@@ -976,7 +973,6 @@ h5 {
     padding-top: 3em;
     width: 50%;
   }
-
 
 }
 

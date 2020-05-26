@@ -117,8 +117,6 @@ h5 {
 
 }
 
-
-
 .connect {
   display: flex;
   background-color: #f2f3f3;
@@ -128,9 +126,6 @@ h5 {
   padding-bottom: 0em;
   text-align: center;
 }
-
-
-
 
 .feedbackD2 {
   display: flex;
@@ -185,7 +180,6 @@ h5 {
   padding-top: 1.5em;
   width: 90%;
 }
-
 
 .footerDiv {
   align-items: baseline;
@@ -245,14 +239,11 @@ h5 {
 
 }
 
-
-
 .mockup {
   padding-top: 2em;
   width: 100%;
 
 }
-
 
 .preferencefeedbackImg {
   width: 100%;
@@ -311,8 +302,6 @@ h5 {
   text-align: left;
 }
 
-
-
 .secondsectionImg {
   display: none;
 }
@@ -366,8 +355,6 @@ h5 {
   text-align: left;
 }
 
-
-
 .takeaways {
   padding-top: 0.75em;
 }
@@ -407,7 +394,6 @@ h5 {
 
 }
 
-
 .typoImg {
   display: flex;
   margin: auto;
@@ -437,7 +423,6 @@ h5 {
   padding-top: 2.5em;
   width:100%;
 }
-
 
 
 .wireframes {
@@ -476,7 +461,6 @@ h5 {
     font-size: 3.5rem;
 
   }
-
 
   h4{
     display: flex;
@@ -613,7 +597,6 @@ h5 {
     margin: 0 12%;
 
   }
-
 
   .deliverRoles {
     display: flex;
@@ -845,7 +828,6 @@ h5 {
     width: 60%;
 
   }
-
 
   .personalQuote {
     margin-left: 1em;
@@ -1192,8 +1174,6 @@ h5 {
     padding-top: 3em;
   }
 
-
-
   .personaBoxes {
     padding-left: 10em;
     padding-right: 10em;
@@ -1212,7 +1192,6 @@ h5 {
     margin-right: 4em;
     text-align: left;
   }
-
 
   .projectMoto {
     font-size: 2.5rem;
@@ -1329,7 +1308,6 @@ h5 {
    .sectionSubtitle {
       font-size: 2rem;
    }
-
 
 
 }
