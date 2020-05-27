@@ -204,7 +204,7 @@ h4 {
 
   }
 
-  .expandedNav {
+  /*.expandedNav {
     margin-left: auto;
     margin-right: 0;
     padding-bottom: 0;
@@ -222,7 +222,7 @@ h4 {
 
   .hamburgerButton {
     display: none;
-  }
+  } */
 
 
   .heroButton {
@@ -231,11 +231,11 @@ h4 {
   }
 
 
-  .logo {
+  /*.logo {
     height: 3em;
     margin: 0.75em 2.5em;
     padding-bottom: 0em;
-  }
+  }*/
 
   .moveOver {
     padding-left: 3.5em;
@@ -286,7 +286,7 @@ h4 {
     padding-top: 15em;
   }
 
-  .topNav {
+  /*.topNav {
     display: flex;
     background-color: #F2F3F3;
     border: 1px solid: #F2F3F3;
@@ -295,7 +295,7 @@ h4 {
     margin: auto;
     position: fixed;
     width: 100%;
-  }
+  }*/
 
 
   .whiteBoxes {

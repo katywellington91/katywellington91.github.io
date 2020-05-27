@@ -1,0 +1,99 @@
+
+
+form {
+  display: block;
+  margin: auto;
+  width: 100%;
+}
+
+input[type=text], seclect {
+  border: 1px solid #0A4F52;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1.4rem;
+  margin:1.3rem 0rem 2rem;
+  outline: none;
+  padding: 1.2rem 2rem;
+  width: 100%
+
+}
+
+label  {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.2rem;
+  padding-right: 1rem;
+
+}
+
+section {
+  padding: 3rem 5rem 5rem;
+}
+
+textarea#styled {
+  border: 1px solid #0A4F52;
+  display: flex;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1.6rem;
+  height: 12rem;
+  margin: 1.5rem 0;
+  outline: none;
+  padding-left: 1rem;
+  padding-top: 1rem;
+  resize: none;
+  width: 100%;
+}
+
+
+#button {
+  background-color: #0A4F52;
+  border-radius: .5em;
+  color: white;
+  display: inline-block;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1.6em;
+  margin-bottom: 2.5rem;
+  margin-top: 2rem;
+  padding: 1rem 2.5rem;
+  text-decoration: none;
+}
+
+#message {
+  height:20rem;
+}
+
+
+.contactPageSlogan {
+  color: #403F3F;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 3rem;
+  font-weight: 300;
+  line-height: 1.5;
+  padding-bottom: 3rem;
+  padding-top: 4rem;
+  text-align: center;
+
+}
+
+.form-container {
+  padding-top: 8rem;
+}
+
+.form-wrapper {
+  padding: 0rem 3rem 0rem 3rem;
+}
+
+@media only screen and (min-width: 760px) {
+
+  form {
+    width: 75%;
+  }
+
+}
+
+@media only screen and (min-width: 1224px) {
+  form {
+    width: 40%;
+  }
+
+}
