@@ -19,11 +19,8 @@
     <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/contact.css">
-    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap" rel="stylesheet"> <!--Noto serif regular -->
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&display=swap" rel="stylesheet"> <!--Noto serif Bold -->
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;0,700;0,900;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 
     <!-- Font Awesome for social media icons -->
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
@@ -42,7 +39,7 @@
           <img class="hamburgerButton" id="nav-hamburger" src="images/bars-solid.svg" alt="Menu">
           <div class="expandedNav expandedNav--hidden" id="expanded-nav">
             <p><a class="expandedNavLink expandedNavText" href="about.html">About</a></p>
-            <p><a class="expandedNavLink expandedNavText" href="#projectGreen">Work</a></p>
+            <p><a class="expandedNavLink expandedNavText" href="index.html#projectGreen">Work</a></p>
             <p><a class="expandedNavLink expandedNavText" href="images/wellington-resume.pdf" target="_blank">Resume</a></p>
             <p><a class="expandedNavLink contactText" href="contact.html">Contact</a></p>
           </div>
@@ -67,31 +64,18 @@
           <button type="submit" id="button">Send</button>
 
         </form>
-      </section>
 
-      <!--footer-->
-        <footer>
-          <div class= "footerDiv">
-            <p class="footerSubtitle textGray">© 2020  |  Katy Wellington <p>
-              <ul class=mediaList>
-                <li>
-                  <a href="https://www.linkedin.com/in/kwelli" target="blank">
-                      <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href ="https://github.com/katywellington91" target="blank">
-                      <i class="fa fa-github-square fa-2x" aria-hidden="true"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="mailto:katywellington91@gmail.com">
-                      <i class="fa fa-envelope-square fa-2x" aria-hidden="true"></i>
-                  </a>
-                </li>
-              </ul>
-          </div>
-        </footer>
+        <section class="largerMedia">
+          <a href="https://www.linkedin.com/in/kwelli" target="blank">
+              <i class="fa fa-linkedin-square fa-4x largerfa" aria-hidden="true"></i>
+          </a>
+          <a href ="https://github.com/katywellington91" target="blank">
+              <i class="fa fa-github-square fa-4x largerfa" aria-hidden="true"></i>
+          </a>
+        </section>
+
+
+      </section>
 
         <script>
           let expandedNav = document.getElementById('expanded-nav');

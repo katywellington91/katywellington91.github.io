@@ -183,6 +183,11 @@ h4 {
   padding-bottom: 0.5em;
 }
 
+@media only screen and (min-width: 500px) {
+
+  .testimonialPic {
+    width: 10%;
+  }
 
 @media only screen and (min-width: 760px) {
 
@@ -254,7 +259,7 @@ h4 {
 .buttonText {
     font-size: 2.0em;
     padding: 0.5em
-  } 
+  }
 
 
   .connect {
@@ -274,30 +279,10 @@ h4 {
     margin: 0 12%;
   }
 
-/*  .expandedNav {
-    margin-left: auto;
-    margin-right: 0;
-    padding-bottom: 0;
-    padding-top: 1rem;
-  }
-
-  .expandedNav--hidden {
-    display: flex;
-  }
-
-  .expandedNavLink {
-    margin-right: 4.8rem;
-
-  } */
 
   .hero {
     width: 100%;
   }
-
-
-/*  .hamburgerButton {
-    display: none;
-  } */
 
 
   .heroButton {
@@ -317,11 +302,6 @@ h4 {
   }
 
 
-/*  .logo {
-    height: 3em;
-    margin: 0.75em 2.5em;
-    padding-bottom: 0em;
-  } */
 
   .myProcess {
     display: flex;
@@ -387,7 +367,7 @@ h4 {
     flex-direction: row;
     font-family: "Source Sans Pro", sans-serif;
     font-size: 1.2rem;
-    font-weight: 600;
+    font-weight: 500;
     justify-content: flex-start;
     list-style: none;
     margin-bottom: 1em;
@@ -457,13 +437,15 @@ h4 {
   }
 
   .testimonialKate {
-    margin-left: 4em;
-    width: 35%;
+    margin-left: 3em;
+    width: 47%;
+    padding-right: 5em;
   }
 
   .testimonialMike {
-    margin-right: 4em;
-    width: 35%;
+    margin-right: 3em;
+    width: 47%;
+    padding-left: 5em;
   }
 
   .testimonialsPeople {
@@ -518,15 +500,6 @@ h4 {
     text-align: left;
     width: 86%;
   }
-
-  /*.topNav {
-    display: flex;
-    border: 1px solid: #F2F3F3;
-    font-family: "Source Sans Pro", sans-serif;
-    font-size: 1.5rem;
-    margin: auto;
-
-  } */
 
 
 }
@@ -799,3 +772,8 @@ h4 {
 
 
 }
+
+@media only screen and (min-width: 1824px) {
+
+
+ }
